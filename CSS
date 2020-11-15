@@ -1,0 +1,331 @@
+*, ::before, ::after {
+
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+
+}
+
+
+
+body {
+
+    font-family: 'raleway', sans-serif;
+    margin-left: 13%;
+    margin-top: 20px;
+}
+
+
+
+
+/*----------- HEADER -----------*/
+
+
+
+
+#accueil img {
+
+    width: 110px;
+
+}
+
+
+
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    margin-right: 13%;
+        
+}
+
+
+ul li {
+
+    list-style-type: none;
+    display: inline-block;
+
+}
+
+
+
+ul li a {
+
+    text-decoration: none;
+    line-height: 40px;
+    margin: 40px;
+    color: #000;
+}
+
+
+
+
+.bleu a {
+
+    color :#0065FC;
+
+}
+
+
+
+
+ul li a:hover {
+
+    color :#0065FC;
+
+}
+
+
+
+ul li a:hover {
+
+    border-top: 2px solid #0065FC;
+    padding: 29px 0;
+
+}
+
+
+
+
+
+
+
+/* ------------ SECONDE PARTIE DU HEADER ----------------- */
+
+
+
+
+#vacances {
+
+    margin-top: 50px;
+
+}
+
+
+
+h1 {
+
+    font-weight: bold;
+    font-size: 22px;
+    margin-left: 5px;
+}
+
+
+
+
+
+p {
+
+    
+    margin-left: 6px;
+   
+
+}
+
+
+
+
+
+
+
+
+/* ------------ BARRE DE RECHERCHE ----------------- */
+
+
+
+.post {
+
+    display: flex;
+    z-index: 10;
+    position: relative;
+    width: 500px;
+    margin-top: 50px;
+}
+
+
+
+
+
+.post > * {
+
+    border: 1.5px solid #f2f2f2;
+    line-height: 20px;
+    padding: 0 1rem;
+    font-family: 'raleway', sans-serif;
+    font-weight: bold;
+    font-size: 17px;
+    
+}
+
+
+
+
+
+
+
+
+.post button {
+
+    border: 0;
+    margin-right: 80px;
+    background: #0065FC;
+    border-radius: 0px 10px 10px 0;
+    color: #fff;
+    cursor: pointer;
+
+}
+
+
+
+
+
+
+.position  {
+
+    background: #f2f2f2;
+    border-radius: 15px 0px 0px 15px;
+    padding: 18px;
+    
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* ------------ FILTRES ----------------- */
+
+
+.themes {
+
+    margin-top: 60px;
+    display: flex;
+
+}
+
+
+
+
+.liste {
+
+    display: inline-block;
+    padding-left: 60px;
+    margin-top: 7px;
+    
+}
+
+
+
+.liste .liste-icone {
+
+    
+
+}
+
+
+
+
+
+
+
+
+
+
+
+.information {
+
+    
+    margin-top: 80px;
+    color:#0065FC;
+
+}
+
+
+
+.information .info {
+
+    
+    border: 3px solid #f2f2f2;
+    padding: 5px 12px ;
+    border-radius: 50% ;
+    
+
+}
+
+
+.information p {
+
+    
+    margin-left: 50px;
+    color: #000;
+
+}
+
+
+
+
+
+
+
+
+
+
+/* ------------ LOCATIONS ----------------- */
+
+
+#locations {
+
+
+    background-color: #F2F2F2;
+    border-radius: 20px;
+    
+
+}
+
+
+
+#locations h2 {
+
+    padding-top: 20px;
+    font-size: 20px;
+
+}
+
+
+
+
+
+.annonces {
+
+    background-color: #fff;
+    padding: 5px;
+    padding-left: 5px;
+
+}
+
+
+
+
+
+.annonces img {
+
+    width: 25%;
+    
+}
