@@ -354,52 +354,67 @@ h2 {
 
 
 
-/* ------------ LOCATIONS ----------------- */
+/* ------- CORPS DE LA PAGE - HEBERGEMENT ---------- */
+
+
 
 
 #locations {
 
-
-    background-color: #F2F2F2;
+    width: 50%;
+    height: 650px;
+    background: red;
     border-radius: 20px;
     
-
-}
-
-
-
-#locations h2 {
-
-    padding-top: 20px;
-    font-size: 20px;
-
-}
-
-
-
-
-
-.annonces {
-
-    background-color: #fff;
-    padding: 5px;
-    padding-left: 5px;
-
-}
-
-
-
-
-
-.annonces img {
-
-    width: 25%;
     
 }
 
 
 
 
+.titre {
+
+    padding: 20px;
+    
+
+}
+
+
+
+
+.container {
+
+    width: 100%;
+    height: auto;
+    margin: 0 auto 100px auto;
+    padding-left: 40px;
+    display: flex;
+    flex-wrap: wrap;
+    
+}
+
+
+
+
+.container img {
+
+    width: 250px;
+    height: 200px;
+    padding-top: 50px;
+    border-radius: 20px 20px 0 0;
+    
+    
+
+}
+
+
+
+.container .affichage {
+
+    display: flex;
+    
+
+}
 
 
 
