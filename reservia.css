@@ -11,7 +11,7 @@
 body {
 
     font-family: 'raleway', sans-serif;
-    margin-left: 13%;
+    margin-left: 50px;
     margin-top: 20px;
 }
 
@@ -25,8 +25,8 @@ body {
 
 #accueil img {
 
-    width: 110px;
-
+    width: 10%;
+    
 }
 
 
@@ -90,6 +90,10 @@ ul li a:hover {
 
 
 
+
+
+
+
 /* ------------ SECONDE PARTIE DU HEADER ----------------- */
 
 
@@ -121,6 +125,10 @@ p {
    
 
 }
+
+
+
+
 
 
 
@@ -204,39 +212,82 @@ p {
 
 
 
-
-
-
-
-
-
 /* ------------ FILTRES ----------------- */
+
+
+
+
+h2 {
+
+    margin-top: 50px;
+
+}
+
+
+
 
 
 .themes {
 
-    margin-top: 60px;
+    width: 90%;
+    height: auto;
     display: flex;
+    flex-wrap: wrap;
+}
+
+
+
+
+
+
+.item {
+
+    width: 260px;
+    height: 50px;
+    margin: 10px;
+    border: 2px solid #f2f2f2;
+    border-radius: 50px;
+    display: flex;
+    align-items: center;
+    margin-top: 40px;
+    margin-left: 20px;
+}
+
+
+
+
+.item i {
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #dae4f3;
+    border-radius: 100%;
+    width: 50px;
+    height: 50px;
+    color: #0065FC;
+
+}
+
+
+
+.item h5 {
+
+    font-size: 18px;
+    font-weight: 900;
+    margin-left: 20px;
 
 }
 
 
 
 
-.liste {
+.item:hover {
 
-    display: inline-block;
-    padding-left: 60px;
-    margin-top: 7px;
-    
-}
-
-
-
-.liste .liste-icone {
-
-    
-
+    background: #0065FC;
+    color: #fff;
+    transition: 0.4s ease-in-out;
+    cursor: pointer;
 }
 
 
@@ -251,32 +302,48 @@ p {
 
 .information {
 
-    
-    margin-top: 80px;
-    color:#0065FC;
-
-}
-
-
-
-.information .info {
-
-    
-    border: 3px solid #f2f2f2;
-    padding: 5px 12px ;
-    border-radius: 50% ;
+    margin-top: 40px;
     
 
 }
 
 
-.information p {
 
+.info {
+
+    display: flex;
     
-    margin-left: 50px;
-    color: #000;
+}
+
+
+
+.info i {
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #0065FC;
+    border: 2px solid #f2f2f2;
+    border-radius: 50px;
+    height: 40px;
+    width: 40px;
+    padding: 5px;
+
 
 }
+
+
+
+.info p {
+
+    margin-top: 12px;
+    margin-left: 20px;
+
+}
+
+
+
+
 
 
 
