@@ -271,12 +271,12 @@ h2 {
 
 
 
-.item h5 {
+.item h3 {
 
+    
     font-size: 18px;
     font-weight: 900;
     margin-left: 20px;
-
 }
 
 
@@ -361,12 +361,11 @@ h2 {
 
 #locations {
 
-    width: 50%;
-    height: 650px;
-    background: red;
+    width: 60%;
+    height: 750px;
+    background: #f2f2f2;
     border-radius: 20px;
-    
-    
+      
 }
 
 
@@ -374,10 +373,12 @@ h2 {
 
 .titre {
 
-    padding: 20px;
     
+    margin-left: 50px;
+    padding-top: 40px;
 
 }
+
 
 
 
@@ -385,36 +386,99 @@ h2 {
 .container {
 
     width: 100%;
-    height: auto;
+    height: 60%;
     margin: 0 auto 100px auto;
-    padding-left: 40px;
+    padding-right: 20px;
     display: flex;
     flex-wrap: wrap;
+
+}
+
+
+
+
+.annonce {
+
+    height: 230px;
+    background: #fff;
+    border-radius: 25px;
+    margin: 50px;
+    margin-left: 50px;
+    box-shadow: 0px 0px 20px 0px;
+    cursor: pointer;
+}
+
+
+.annonce:hover {
+
+    
+    transition: 0.4s ease-in-out;
+
+}
+
+
+
+
+
+
+.annonce img {
+
+    width: 230px;
+    height: 130px;
+    margin: 5px;
+    margin-left: 5px;
+    border-radius: 20px 20px 0px 0px;
     
 }
 
 
 
 
-.container img {
 
-    width: 250px;
-    height: 200px;
-    padding-top: 50px;
-    border-radius: 20px 20px 0 0;
-    
-    
+.description {
 
+    padding-left: 10px;
+    padding-bottom: 10px;
 }
 
 
 
-.container .affichage {
+.description h3 {
 
-    display: flex;
+    font-size: 18px;
     
-
 }
+
+
+
+.description p {
+
+    padding-top: 5px;
+}
+
+
+
+
+
+.description i {
+
+    color: #0065FC ;
+    font-size: 13px;
+    padding-top: 20px;
+}
+
+
+
+
+ .affiche {
+
+    
+    margin-left: 40px;
+    margin-top: 190px;
+    cursor: pointer;
+}
+
+
 
 
 
