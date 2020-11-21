@@ -546,7 +546,6 @@ h2 {
 .block i {
 
     display: flex;
-    justify-content: space-between;
     margin-top: 53px;
     padding-left: 60px;
     font-size: 25px;
@@ -655,24 +654,38 @@ h2 {
 
 
 
-#activites {
 
-    display: flex;
-    flex-wrap: wrap;
+
+
+
+.marseille {
+
+    padding-top: 50px;
 
 }
 
 
 
 
+.picture_0 {
+
+    width: 320px;
+    margin-top: 40px;
+    background: #fff;
+    box-shadow: 1px 1px 30px 1px;
+    border-radius: 20px 20px 20px 20px;
+    
+}
 
 
-.pictures img {
+.picture_0 img {
 
-    display: flex;
-    width: 50%;
-    margin-top: 20px;
-
+    
+    width: 320px;
+    height: 420px;
+    object-fit: cover;
+    border-radius: 20px 20px 0px 0px;
+    
 }
 
 
@@ -680,8 +693,86 @@ h2 {
 
 .soustitre {
 
+    margin-left: 20px;
+    margin-top: 10px;
+    padding-bottom: 20px;
+    border-radius: 5px;
+    
+}
+
+
+
+
+a {
+
+    
+    text-decoration: none;
+    color: #000;
+
+}
+
+
+
+
+
+
+
+.picture_1 {
+
     display: flex;
-    justify-content: center;
-    align-items: center;
+    flex-direction: column;
+    margin: 100px;
+    
+
+
+}
+
+
+
+.fort {
+
+    display: flex;
+    flex-direction: column;
+    width: 355px;
+    height: 215px;
+    background: #fff;
+    box-shadow: 1px 1px 30px 1px;
+    border-radius: 20px 20px 20px 20px;
+    margin-bottom: 50px;
+}
+
+
+
+.fort img {
+
+    width: 355px;
+    height: 160px;
+    object-fit: cover;
+    border-radius: 20px 20px 0px 0px;
+
+}
+
+
+
+
+
+.iles {
+
+    width: 355px;
+    height: 160px;
+    background: #fff;
+    box-shadow: 1px 1px 30px 1px;
+    border-radius: 20px 20px 20px 20px;
+
+}
+
+
+
+.iles img {
+
+    width: 355px;
+    height: 107px;
+    object-fit: cover;
+    border-radius: 20px 20px 0px 0px;
 
 }
