@@ -718,9 +718,13 @@ a {
 
 
 
+
+
+
 .pictures {
 
     display: flex;
+    flex-wrap: wrap;
     
 }
 
@@ -729,8 +733,7 @@ a {
 
 .petite {
 
-    display: flex;
-    flex-direction: column;
+
     margin-top: 40px;
     margin-left: 50px;
     
@@ -789,3 +792,174 @@ a {
     border-radius: 20px 20px 0px 0px;
 
 }
+
+
+
+
+
+
+
+.parc {
+
+    display: flex;
+    flex-direction: row;
+    width: 320px;
+    margin-top: 40px;
+    background: #fff;
+    box-shadow: 1px 1px 30px 1px;
+    border-radius: 20px 20px 20px 20px;
+    margin-left: 50px;
+}
+
+
+.parc img {
+
+    width: 320px;
+    height: 390px;
+    object-fit: cover;
+    border-radius: 20px 20px 0px 0px;
+
+}
+
+
+
+
+.notre_dame {
+
+    width: 355px;
+    height: 204px;
+    background: #fff;
+    box-shadow: 1px 1px 30px 1px;
+    border-radius: 20px 20px 20px 20px;
+
+}
+
+
+
+.notre_dame img {
+
+    width: 355px;
+    height: 150px;
+    object-fit: cover;
+    border-radius: 20px 20px 0px 0px;
+
+}
+
+
+
+
+.longchamps {
+
+    display: flex;
+    flex-direction: row;
+    width: 355px;
+    height: 200px;
+    background: #fff;
+    box-shadow: 1px 1px 30px 1px;
+    border-radius: 20px 20px 20px 20px;
+    margin-top: 40px;
+    
+
+}
+
+
+
+
+.longchamps img {
+
+    width: 355px;
+    height: 147px;
+    object-fit: cover;
+    border-radius: 20px 20px 0px 0px;
+
+}
+
+
+
+
+
+
+/* --------------  FOOTER  -------------------------- */
+
+
+
+
+
+#info {
+
+    display: flex;
+    background: #f2f2f2;
+    width: 100%;
+    margin-top: 100px;
+    padding-left: 50px;
+    
+}
+
+
+
+.about h4 {
+
+    display: flex;
+    line-height: 80px;
+    padding-top: 20px;
+}
+
+
+
+
+.about ul li a {
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 10px;
+
+}
+
+
+
+
+
+.host h4 {
+
+    display: flex;
+    line-height: 80px;
+    padding-top: 20px;
+}
+
+
+
+
+.host ul li a {
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 10px;
+
+}
+
+
+
+
+
+.assistance h4 {
+
+    display: flex;
+    line-height: 80px;
+    padding-top: 20px;
+}
+
+
+
+
+.assistance ul li a {
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 10px;
+
+}
+
+
