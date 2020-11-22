@@ -654,13 +654,17 @@ h2 {
 
 
 
+#activites {
 
+    margin-bottom: 100px;
+
+}
 
 
 
 .marseille {
 
-    padding-top: 50px;
+    padding-top: 10px;
 
 }
 
@@ -676,8 +680,18 @@ h2 {
     background: #fff;
     box-shadow: 1px 1px 30px 1px;
     border-radius: 20px 20px 20px 20px;
-    
+    transform: scale(1);
+    transition: .2s ease-in-out;
 }
+
+
+.picture_0:hover {
+
+    transform: scale(1.1);
+
+}
+
+
 
 
 .picture_0 img {
@@ -749,9 +763,18 @@ a {
     background: #fff;
     box-shadow: 1px 1px 30px 1px;
     border-radius: 20px 20px 20px 20px;
-    
+    transform: scale(1);
+    transition: .2s ease-in-out;
     
 }
+
+
+.fort:hover {
+
+    transform: scale(1.1);
+
+}
+
 
 
 
@@ -778,7 +801,15 @@ a {
     box-shadow: 1px 1px 30px 1px;
     border-radius: 20px 20px 20px 20px;
     margin-top: 40px;
-    
+    transform: scale(1);
+    transition: .2s ease-in-out;
+
+}
+
+
+.iles:hover {
+
+    transform: scale(1.1);
 
 }
 
@@ -797,8 +828,6 @@ a {
 
 
 
-
-
 .parc {
 
     display: flex;
@@ -809,7 +838,19 @@ a {
     box-shadow: 1px 1px 30px 1px;
     border-radius: 20px 20px 20px 20px;
     margin-left: 50px;
+    transform: scale(1);
+    transition: .2s ease-in-out;
 }
+
+
+
+
+.parc:hover {
+
+    transform: scale(1.1);
+
+}
+
 
 
 .parc img {
@@ -831,6 +872,15 @@ a {
     background: #fff;
     box-shadow: 1px 1px 30px 1px;
     border-radius: 20px 20px 20px 20px;
+    transform: scale(1);
+    transition: .2s ease-in-out;
+}
+
+
+
+.notre_dame:hover {
+
+    transform: scale(1.1);
 
 }
 
@@ -858,10 +908,18 @@ a {
     box-shadow: 1px 1px 30px 1px;
     border-radius: 20px 20px 20px 20px;
     margin-top: 40px;
-    
+    transform: scale(1);
+    transition: .2s ease-in-out;
 
 }
 
+
+
+.longchamps:hover {
+
+    transform: scale(1.1);
+
+}
 
 
 
@@ -871,8 +929,11 @@ a {
     height: 147px;
     object-fit: cover;
     border-radius: 20px 20px 0px 0px;
-
+    
 }
+
+
+
 
 
 
@@ -882,84 +943,32 @@ a {
 /* --------------  FOOTER  -------------------------- */
 
 
-
-
-
-#info {
+.info {
 
     display: flex;
+    margin-top: 50px;
     background: #f2f2f2;
-    width: 100%;
-    margin-top: 100px;
-    padding-left: 50px;
-    
+
 }
 
 
 
-.about h4 {
+
+.block h4 {
 
     display: flex;
-    line-height: 80px;
-    padding-top: 20px;
-}
-
-
-
-
-.about ul li a {
-
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    margin: 10px;
-
+    margin-top: 10px;
 }
 
 
 
 
 
-.host h4 {
-
-    display: flex;
-    line-height: 80px;
-    padding-top: 20px;
-}
 
 
-
-
-.host ul li a {
+.services {
 
     display: flex;
     flex-direction: column;
-    align-items: center;
-    margin: 10px;
 
 }
-
-
-
-
-
-.assistance h4 {
-
-    display: flex;
-    line-height: 80px;
-    padding-top: 20px;
-}
-
-
-
-
-.assistance ul li a {
-
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    margin: 10px;
-
-}
-
-
