@@ -945,6 +945,10 @@ a {
 
 
 
+
+
+
+
 /* --------------  FOOTER  -------------------------- */
 
 
@@ -969,93 +973,32 @@ footer {
 
 
 
-.propos {
+.fin {
 
+    display: flex;
+    flex-direction: column;
     padding: 30px;
 
 }
 
 
 
-.propos ul {
 
-    display: flex;
-    flex-direction: column;
+.fin ul {
+
+    
     list-style-type: none;
-    padding-top: 10px;
+    padding-top: 30px;
     
 }
 
 
-
-.propos li {
-
-    padding-top: 10px;
-    
-}
-
-
-
-
-
-
-
-
-.maison {
-
-    padding: 30px;
-
-}
-
-
-
-
-.maison ul {
-
-    display: flex;
-    flex-direction: column;
-    list-style-type: none;
-    padding-top: 10px;
-}
-
-
-
-
-.maison li {
+.fin li {
 
     padding-top: 10px;
 
 }
 
-
-
-
-
-
-.assist {
-
-    padding: 30px;
-
-}
-
-
-
-
-.assist ul {
-
-    display: flex;
-    flex-direction: column;
-    list-style-type: none;
-    padding-top: 10px;
-}
-
-
-
-.assist li {
-
-    padding-top: 10px;
-
-}
 
 
 
