@@ -11,7 +11,7 @@
         width: 80px;
         height: 60px;
         
-    }
+}
 
 
 
@@ -284,7 +284,7 @@
 
 
 
-@media (max-width: 550px) {
+@media (max-width: 980px) {
 
 
     .logo_recherche_1 {
@@ -294,10 +294,10 @@
 
     }
 
+}
 
 
-
-@media (max-width: 1920px) {
+@media (max-width: 980px) {
 
 
     .logo_recherche_2  {
@@ -305,10 +305,54 @@
         display: block;
         justify-content: center;
         align-items: center;
-        border-radius: 10px 10px;
-        margin-left: -10px;        
-        width: 50px;
+        border-radius: 20px 20px;
+        margin-left: -15px;
+        font-size: 20px;        
+        width: 60px;
        
+    }
+
+
+}
+
+
+
+
+
+
+                /* ------------ FILTRES ----------------- */
+
+
+
+@media (max-width: 1920px) {
+
+
+
+    .themes .point {
+
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+
+
+    
+
+
+}
+
+
+
+
+
+@media (max-width: 984px) {
+
+
+
+    .themes .point {
+
+        
+
     }
 
 
@@ -321,6 +365,26 @@
 
 
 
+
+
+
+
+@media (max-width: 798px ) {
+
+
+    .themes {
+
+        display: flex;
+        flex-direction: column;
+        padding-bottom: 90px;
+
+    }
+
+
+    
+
+
+}
 
 
 
@@ -360,4 +424,4 @@
 
 
 
- }
+}
