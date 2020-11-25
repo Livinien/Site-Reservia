@@ -1,0 +1,363 @@
+
+
+            /* -------------------- HEADER ---------------------------- */
+
+
+@media (max-width: 980px) {
+
+
+    #accueil nav img {
+
+        width: 80px;
+        height: 60px;
+        
+    }
+
+
+
+    .navigation {
+
+        border-top: none;
+        
+
+    }
+
+
+
+     .underline {
+
+        margin-top: 50px;
+        border-bottom: 2px solid #f2f2f2;
+        
+    }
+
+
+
+    .bleu {
+
+        position: absolute;
+        top: 25px;
+        right: 1px;
+
+    }
+
+
+
+}
+
+
+
+
+
+@media (max-width: 940px) {
+
+
+    #accueil nav img {
+
+        width: 80px;
+        height: 60px;
+    }
+
+
+
+    
+
+
+    .bleu {
+
+        position: absolute;
+        top: 25px;
+        right: 1px;
+
+    }
+
+
+
+
+}
+
+
+
+
+
+@media (max-width: 900px) {
+
+
+    #accueil nav img {
+
+        width: 80px;
+        height: 60px;
+
+    }
+
+
+
+    .underline {
+
+        margin-top: 50px;
+    
+    }
+
+
+
+    .bleu {
+
+        position: absolute;
+        top: 25px;
+        right: 1px;
+
+    }
+
+
+
+
+}
+
+
+
+
+@media (max-width: 640px) {
+
+
+    #accueil img {
+
+        margin-bottom: 240px;
+
+    }
+
+
+
+    .underline {
+
+        display: flex;
+        
+        
+        
+       
+    }
+
+
+
+
+    .bleu {
+
+        position: absolute;
+        top: 25px;
+        right: 1px;
+
+    }
+
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+            /*------------------ SECONDE PARTIE DU HEADER ----------------------*/
+
+
+
+
+
+@media (max-width: 690px) {
+
+
+    #vacances h1 {
+
+        font-size: 20px;
+
+    }
+
+
+
+    #vacances p {
+
+        font-size: 15px;
+
+    }
+
+} 
+
+
+
+
+@media (max-width: 610px) {
+
+
+    #vacances h1 {
+
+        font-size: 18px;
+
+    }
+
+
+
+    #vacances p {
+
+        font-size: 15px;
+
+    }
+
+} 
+
+
+
+
+@media (max-width: 560px) {
+
+
+    #vacances h1 {
+
+        font-size: 15px;
+
+    }
+
+
+
+    #vacances p {
+
+        font-size: 14px;
+
+    }
+
+} 
+
+
+
+
+
+
+
+
+            /* ------------ BARRE DE RECHERCHE ----------------- */
+
+
+
+
+
+
+
+
+@media (max-width: 1920px) {
+
+
+    .logo_recherche_1  {
+
+
+        display: flex;
+        color:#fff;
+        background:#0065FC;
+        border-radius: 0px 15px 15px 0px;
+        cursor: pointer;
+    }
+
+
+}
+            
+            
+
+@media (max-width: 1920px) {
+
+
+    .logo_recherche_2  {
+
+        display: none;
+        
+    }
+
+
+}
+
+
+
+
+
+
+
+
+@media (max-width: 550px) {
+
+
+    .logo_recherche_1 {
+
+        display: none;
+        
+
+    }
+
+
+
+
+@media (max-width: 1920px) {
+
+
+    .logo_recherche_2  {
+
+        display: block;
+        justify-content: center;
+        align-items: center;
+        border-radius: 10px 10px;
+        margin-left: -10px;        
+        width: 50px;
+       
+    }
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+            /* --------------- FOOTER ------------------------ */
+
+
+
+
+ @media (max-width: 980px) {
+
+
+    .informations {
+
+        display: flex;
+        flex-direction: column;
+        
+
+    }
+
+
+
+    .fin {
+
+        padding-bottom: 20px;
+
+    }
+
+
+
+ }
