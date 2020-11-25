@@ -35,7 +35,7 @@ nav {
     display: flex;
     justify-content: space-between;
     margin-right: 13%;
-        
+    
 }
 
 
@@ -43,6 +43,7 @@ nav ul li {
 
     list-style-type: none;
     display: inline-block;
+    
 
 }
 
@@ -54,6 +55,7 @@ nav ul li a {
     line-height: 40px;
     margin: 40px;
     color: #000;
+    
 }
 
 
@@ -135,7 +137,6 @@ h1 {
 .post {
 
     display: flex;
-    z-index: 10;
     position: relative;
     width: 500px;
     margin-top: 50px;
@@ -167,9 +168,8 @@ h1 {
 .post button {
 
     border: 0;
-    margin-right: 80px;
+    margin-right: 10px;
     background: #0065FC;
-    border-radius: 0px 10px 10px 0;
     color: #fff;
     cursor: pointer;
 
@@ -660,9 +660,10 @@ h1 {
 #activites {
 
     margin-bottom: 100px;
-    margin-left: 50px;
     margin-top: 60px;
 }
+
+
 
 
 
@@ -670,18 +671,28 @@ h1 {
 
     
     padding-top: 10px;
-    margin-right: 80px;
+    margin-left: 50px;
+
+}
+
+
+
+.pictures {
+
+    display: flex;
+    flex-wrap: wrap;
+    
 }
 
 
 
 
-.picture_0 {
+.grandes {
 
     display: flex;
     flex-direction: row;
-    width: 320px;
     margin-top: 40px;
+    margin-left: 50px;
     background: #fff;
     box-shadow: 1px 1px 30px 1px;
     border-radius: 20px 20px 20px 20px;
@@ -690,7 +701,7 @@ h1 {
 }
 
 
-.picture_0:hover {
+.grandes:hover {
 
     transform: scale(1.1);
 
@@ -699,7 +710,7 @@ h1 {
 
 
 
-.picture_0 img {
+.grandes img {
 
     
     width: 320px;
@@ -740,15 +751,6 @@ a {
 
 
 
-.pictures {
-
-    display: flex;
-    flex-wrap: wrap;
-    
-}
-
-
-
 
 .petite {
 
@@ -761,17 +763,21 @@ a {
 
 
 
+
+
+
 .fort {
 
-    width: 355px;
-    height: 234px;
     background: #fff;
     box-shadow: 1px 1px 30px 1px;
     border-radius: 20px 20px 20px 20px;
     transform: scale(1);
     transition: .2s ease-in-out;
-    
+
+
 }
+
+
 
 
 .fort:hover {
@@ -796,12 +802,14 @@ a {
 
 
 
+
+
+
+
+
 .iles {
 
-    display: flex;
-    flex-direction: row;
-    width: 355px;
-    height: 170px;
+
     background: #fff;
     box-shadow: 1px 1px 30px 1px;
     border-radius: 20px 20px 20px 20px;
@@ -833,47 +841,12 @@ a {
 
 
 
-.parc {
-
-    display: flex;
-    flex-direction: row;
-    width: 320px;
-    margin-top: 40px;
-    background: #fff;
-    box-shadow: 1px 1px 30px 1px;
-    border-radius: 20px 20px 20px 20px;
-    margin-left: 50px;
-    transform: scale(1);
-    transition: .2s ease-in-out;
-}
-
-
-
-
-.parc:hover {
-
-    transform: scale(1.1);
-
-}
-
-
-
-.parc img {
-
-    width: 320px;
-    height: 390px;
-    object-fit: cover;
-    border-radius: 20px 20px 0px 0px;
-
-}
 
 
 
 
 .notre_dame {
 
-    width: 355px;
-    height: 204px;
     background: #fff;
     box-shadow: 1px 1px 30px 1px;
     border-radius: 20px 20px 20px 20px;
@@ -903,12 +876,12 @@ a {
 
 
 
+
+
+
+
 .longchamps {
 
-    display: flex;
-    flex-direction: row;
-    width: 355px;
-    height: 200px;
     background: #fff;
     box-shadow: 1px 1px 30px 1px;
     border-radius: 20px 20px 20px 20px;
@@ -988,7 +961,7 @@ footer {
 
     
     list-style-type: none;
-    padding-top: 30px;
+    padding-top: 10px;
     
 }
 
