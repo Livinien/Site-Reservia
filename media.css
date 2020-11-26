@@ -1,6 +1,82 @@
+                /* --------------- MOBILE ------------------ */
 
 
-            /* -------------------- HEADER ---------------------------- */
+
+@media only screen and (max-width: 767px) {
+
+    nav ul li a:hover {
+
+        border-bottom: 2px solid #0065FC;
+        margin-top: 180px;
+    
+    }
+
+
+   
+
+}   
+
+
+
+           
+     
+
+            /* --------------- DESKTOP ------------------ */
+
+
+
+
+
+@media only screen and (min-width: 992px) {
+
+
+    
+    nav ul li a:hover {
+
+        border-top: 2px solid #0065FC;
+        padding-top: 28px;
+        
+    
+    }
+
+}  
+
+
+
+
+            /* --------------- TABLETTE ------------------ */
+
+
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+
+    nav ul li a:hover {
+
+        border-bottom: 2px solid #0065FC;
+        padding-bottom: 11px;
+    
+    }
+
+
+    
+    
+
+
+}  
+
+
+
+
+
+
+
+
+
+           
+           
+           
+           
+           /* -------------------- HEADER ---------------------------- */
 
 
 @media (max-width: 980px) {
@@ -17,7 +93,7 @@
 
     .navigation {
 
-        border-top: none;
+        display: flex;
         
 
     }
@@ -320,7 +396,7 @@
 
 
 
-                /* ------------ FILTRES ----------------- */
+                /* ------------ FILTRES ET INFORMATIONS ----------------- */
 
 
 
@@ -333,6 +409,7 @@
         display: flex;
         flex-direction: row;
         flex-wrap: wrap;
+
     }
 
 
@@ -342,15 +419,48 @@
 }
 
 
+@media (max-width: 1394px) {
 
 
 
-@media (max-width: 984px) {
+    .themes h2 {
+
+       padding-bottom: 20px;
+       
+
+   }
+
+
+   .point .item {
+
+       margin-top: 10px;
+       
+
+   }
+
+
+}
 
 
 
-    .themes .point {
 
+
+
+@media (max-width: 1306px) {
+
+
+
+     .themes h2 {
+
+        padding-bottom: 20px;
+        
+
+    }
+
+
+    .point .item {
+
+        margin-top: 10px;
         
 
     }
@@ -362,29 +472,210 @@
 
 
 
+@media (max-width: 690px) {
 
 
+    .information p {
 
+        font-size: 15px;
 
-
-
-
-@media (max-width: 798px ) {
-
-
-    .themes {
-
-        display: flex;
-        flex-direction: column;
-        padding-bottom: 90px;
 
     }
+
+
+}
+
+
+
+@media (max-width: 610px) {
+
+
+    .information p {
+
+        font-size: 14px;
+
+
+    }
+
+
+}
+
+
+
+
+
+
+
+@media (max-width: 560px) {
+
+
+    .information p {
+
+        font-size: 13px;
+
+
+    }
+
+
+}
+
+
+
+
+
+
+
+
+
+
+/* ----------- CORPS DE LA PAGE - HEBERGEMENT -------------- */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* --------- CORPS DE LA PAGE - HEBERGEMENT / LES PLUS POPULAIRES ------------ */
+
+
+
+
+
+@media (max-width: 1024px) {
+
+
+
+    #hebergements {
+
+        width: 100%;
+        
+    }
+
+
+
+    #locations {
+
+        display: none;
+        
+
+    }
+
+
+
+    #best {
+  
+        width: 100%;
+        
+    }
+
+
+
+
+    .populaire {
+
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-bottom: 20px;
+        border-radius: 0;
+        padding-bottom: 50px;
+        margin: 0;
+        
+    }
+
+
+
+    .block {
+
+        
+
+    }
+
+
+
+    .most-popular {
+
+        
+        width: 350px;
+
+
+    }
+
+
+
+
+    .most-popular img {
+
+        
+        
+
+
+    }
+
+
+
+    
+
+
+
+
+
+
+    
+
+    
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+/*--------------- ACTIVITES A MARSEILLE ----------------> */
+
+
+
+
+@media (max-width: 1570px) {
 
 
     
 
 
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -410,7 +701,7 @@
 
         display: flex;
         flex-direction: column;
-        
+        width: 100%;
 
     }
 
