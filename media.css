@@ -538,8 +538,7 @@
 #hebergements {
 
     display: flex;
-    
-
+      
 
 }
 
@@ -575,7 +574,8 @@
 
     #hebergements {
 
-        
+        display: flex;
+        flex-direction: column-reverse;   
         width: 100%;
         
     }
@@ -855,11 +855,9 @@
         width: calc(95% - 60px);
         padding: 5px;
         border-radius: 25px;
-        margin: 80px;
         
         
     }
-    
     
 
 
@@ -914,32 +912,51 @@
     /*-------- GRANDES IMAGES - ACTIVITES -------*/
 
 
+ 
     .grandes {
 
-        
         width: calc(95% - 60px);
-        padding: 5px;
-        
-        
-        
+        border-radius: 25px;
+        margin-left: 50px;
+        box-shadow: 0px 0px 20px 0px;
+       
     }
     
 
 
 
 
-    .grandes img {
+    .port img {
 
         width: 100%;
-        height: 50%;
+        height: 170px;
+        border-radius: 25px 25px 0 0;
         
     
     }
+
+
+
+
+    .parc {
+
+        width: 100%;
+        
+
+    }
+
+
+    .parc img {
+
+        width: 100%;
+        height: 170px;
+        border-radius: 25px 25px 0 0;
+        
     
+    }
 
 
-
-
+    
 }
 
 
@@ -949,24 +966,7 @@
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-            /* --------------- FOOTER ------------------------ */
+         /* --------------- FOOTER ------------------------ */
 
 
 
