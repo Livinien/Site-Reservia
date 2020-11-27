@@ -844,8 +844,98 @@
 @media (max-width: 792px) {
 
 
+
+/*-------- PETITES IMAGES - ACTIVITES -------*/
+
+
+
+    .petite {
+
+        
+        width: calc(95% - 60px);
+        padding: 5px;
+        border-radius: 25px;
+        margin: 80px;
+        
+        
+    }
+    
     
 
+
+    .fort img {
+
+        width: 100%;
+        border-radius: 20px 20px 0 0;
+        
+    
+    }
+    
+
+
+    .iles img {
+
+        width: 100%;
+        height: 170px;
+        border-radius: 20px 20px 0 0;
+        
+    
+    }
+    
+
+
+    .notre_dame img {
+
+        width: 100%;
+        height: 170px;
+        border-radius: 20px 20px 0 0;
+        
+    
+    }
+    
+
+
+
+
+    .longchamps img {
+
+        width: 100%;
+        height: 170px;
+        border-radius: 20px 20px 0 0;
+        
+    
+    }
+    
+
+
+
+
+
+    /*-------- GRANDES IMAGES - ACTIVITES -------*/
+
+
+    .grandes {
+
+        
+        width: calc(95% - 60px);
+        padding: 5px;
+        
+        
+        
+    }
+    
+
+
+
+
+    .grandes img {
+
+        width: 100%;
+        height: 50%;
+        
+    
+    }
+    
 
 
 
