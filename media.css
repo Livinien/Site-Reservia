@@ -1,75 +1,3 @@
-                /* --------------- MOBILE ------------------ */
-
-
-
-@media only screen and (max-width: 767px) {
-
-    nav ul li a:hover {
-
-        border-bottom: 2px solid #0065FC;
-        margin-top: 180px;
-    
-    }
-
-
-   
-
-}   
-
-
-
-           
-     
-
-            /* --------------- DESKTOP ------------------ */
-
-
-
-
-
-@media only screen and (min-width: 992px) {
-
-
-    
-    nav ul li a:hover {
-
-        border-top: 2px solid #0065FC;
-        padding-top: 28px;
-        
-    
-    }
-
-}  
-
-
-
-
-            /* --------------- TABLETTE ------------------ */
-
-
-
-@media only screen and (min-width: 768px) and (max-width: 991px) {
-
-    nav ul li a:hover {
-
-        border-bottom: 2px solid #0065FC;
-        padding-bottom: 11px;
-    
-    }
-
-
-    
-    
-
-
-}  
-
-
-
-
-
-
-
 
 
            
@@ -82,152 +10,73 @@
 @media (max-width: 980px) {
 
 
-    #accueil nav img {
+    header {
 
-        width: 80px;
-        height: 60px;
-        
-}
+        justify-content: space-between;
 
+    }
 
+    
+    header > a {
 
-    .navigation {
-
-        display: flex;
-        
+        order: 2;
 
     }
 
 
+    header ul {
 
-     .underline {
-
-        margin-top: 50px;
-        border-bottom: 2px solid #f2f2f2;
-        
-    }
-
-
-
-    .bleu {
-
-        position: absolute;
-        top: 25px;
-        right: 1px;
+        margin-top: 1rem;
+        order: 3;
+        width: 100%;
 
     }
 
 
+    header ul li {
 
-}
+        width: 50%;
+        text-align: center;
+        border-bottom: 3px solid #cecece;
+        margin: 0;
+        padding: 1rem 0;
 
 
-
-
-
-@media (max-width: 940px) {
-
-
-    #accueil nav img {
-
-        width: 80px;
-        height: 60px;
     }
 
 
+    header ul li:hover {
 
+        border-bottom: 3px solid #0065FC;
+
+    }
+
+
+    li a {
+
+        color: #0065FC;
+
+    }
+
+
+    header ul li a:hover {
+
+        border-top: 0;
+        padding-top: 0;
+    }
     
 
 
-    .bleu {
-
-        position: absolute;
-        top: 25px;
-        right: 1px;
-
-    }
-
-
-
-
 }
 
 
 
 
 
-@media (max-width: 900px) {
-
-
-    #accueil nav img {
-
-        width: 80px;
-        height: 60px;
-
-    }
-
-
-
-    .underline {
-
-        margin-top: 50px;
-    
-    }
-
-
-
-    .bleu {
-
-        position: absolute;
-        top: 25px;
-        right: 1px;
-
-    }
 
 
 
 
-}
-
-
-
-
-@media (max-width: 640px) {
-
-
-    #accueil img {
-
-        margin-bottom: 240px;
-
-    }
-
-
-
-    .underline {
-
-        display: flex;
-        
-        
-        
-       
-    }
-
-
-
-
-    .bleu {
-
-        position: absolute;
-        top: 25px;
-        right: 1px;
-
-    }
-
-
-
-
-
-}
 
 
 
@@ -531,27 +380,36 @@
 /* ----------- CORPS DE LA PAGE - HEBERGEMENT -------------- */
 
 
-@media (max-width: 1560px) {
+@media (max-width: 1705px) {
+
+
+    #locations {
+
+        
+
+    }
+
+
+    .container {
+
+        
+        
+        
+    }
+    
+
+
+    .annonces {
+
+        
+
+    }
 
 
 
-#hebergements {
 
-    display: flex;
-      
 
 }
-
-
-
-.container {
-
-    display: flex;
-    
-    
-
-}
-
 
 
 
@@ -636,147 +494,13 @@
 
     #hebergements {
 
-        width: 105%;
+        width: 100%;
         
     }
 
 
 
 }
-
-
-
-@media (max-width: 490px) {
-
-
-
-    #hebergements {
-
-        width: 115%;
-        
-    }
-
-
-
-}
-
-
-
-
-@media (max-width: 480px) {
-
-
-
-    #hebergements {
-
-        width: 120%;
-        
-    }
-
-
-
-}
-
-
-
-@media (max-width: 450px) {
-
-
-
-    #hebergements {
-
-        width: 130%;
-        
-    }
-
-
-
-}
-
-
-
-
-@media (max-width: 395px) {
-
-
-
-    #hebergements {
-
-        width: 140%;
-        
-    }
-
-
-
-}
-
-
-
-@media (max-width: 372px) {
-
-
-
-    #hebergements {
-
-        width: 150%;
-        
-    }
-
-
-
-}
-
-
-
-@media (max-width: 428px) {
-
-
-
-    #hebergements {
-
-        width: 155%;
-        
-    }
-
-
-
-}
-
-
-
-@media (max-width: 355px) {
-
-
-
-    #hebergements {
-
-        width: 160%;
-        
-    }
-
-
-
-}
-
-
-
-
-@media (max-width: 355px) {
-
-
-
-    #hebergements {
-
-        width: 170%;
-        
-    }
-
-
-
-}
-
-
-
 
 
 
@@ -993,5 +717,3 @@
 
 
 }
-
-
