@@ -1,17 +1,10 @@
-*, ::before, ::after {
-
-    box-sizing: border-box;
-    margin: 0;
-    padding: 0;
-
-}
-
-
-
 body {
 
     font-family: 'raleway', sans-serif;
-    margin-top: 20px;
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+    
 }
 
 
@@ -20,29 +13,17 @@ body {
 /*----------- HEADER -----------*/
 
 
+nav ul {
 
-
-#accueil img {
-
-    width: 10%;
-    margin-left: 50px;
-}
-
-
-
-
-nav {
     display: flex;
-    justify-content: space-between;
-    margin-right: 13%;
-        
+    
 }
 
 
 nav ul li {
 
     list-style-type: none;
-    display: inline-block;
+
 
 }
 
@@ -52,8 +33,19 @@ nav ul li a {
 
     text-decoration: none;
     line-height: 40px;
-    margin: 40px;
     color: #000;
+
+}
+
+
+
+
+nav li a:hover {
+
+    padding-top: 28px;
+    color :#0065FC;
+    border-top: 2px solid #0065FC;
+
 }
 
 
@@ -61,6 +53,7 @@ nav ul li a {
 
 .bleu a {
 
+    
     color :#0065FC;
 
 }
@@ -68,20 +61,20 @@ nav ul li a {
 
 
 
-nav ul li a:hover {
+.bleu a :hover {
 
-    color :#0065FC;
-
-}
-
-
-
-nav ul li a:hover {
-
+    padding-top: 28px;
     border-top: 2px solid #0065FC;
-    padding: 29px 0;
+    
 
 }
+
+
+
+
+
+
+
 
 
 
@@ -110,7 +103,7 @@ h1 {
 
     font-weight: bold;
     font-size: 22px;
-    
+
 }
 
 
@@ -135,11 +128,8 @@ h1 {
 .post {
 
     display: flex;
-    z-index: 10;
-    position: relative;
-    width: 500px;
     margin-top: 50px;
-    
+
 }
 
 
@@ -154,7 +144,7 @@ h1 {
     font-family: 'raleway', sans-serif;
     font-weight: bold;
     font-size: 17px;
-    
+    outline: 0;
 }
 
 
@@ -167,9 +157,8 @@ h1 {
 .post button {
 
     border: 0;
-    margin-right: 80px;
+    margin-right: 10px;
     background: #0065FC;
-    border-radius: 0px 10px 10px 0;
     color: #fff;
     cursor: pointer;
 
@@ -185,14 +174,9 @@ h1 {
     background: #f2f2f2;
     border-radius: 15px 0px 0px 15px;
     padding: 18px;
-    
+
 
 }
-
-
-
-
-
 
 
 
@@ -245,7 +229,7 @@ h1 {
     display: flex;
     align-items: center;
     margin-top: 40px;
-    margin-left: 20px;
+    margin-left: 40px;
 }
 
 
@@ -268,7 +252,7 @@ h1 {
 
 .item h3 {
 
-    
+
     font-size: 18px;
     font-weight: 900;
     margin-left: 20px;
@@ -307,7 +291,7 @@ h1 {
 .info {
 
     display: flex;
-    
+
 }
 
 
@@ -353,19 +337,6 @@ h1 {
 
 
 
-#locations {
-
-    width: 62%;
-    height: 10%;
-    background: #f2f2f2;
-    border-radius: 20px;
-    margin-left: 50px;
-    
-}
-
-
-
-
 .titre {
 
 
@@ -385,14 +356,14 @@ h1 {
     flex-wrap: wrap;
     align-items: stretch;
     margin-left: 30px;
-    
+
 }
 
 
 
 
 .annonce {
-    
+
     width: calc(33% - 60px);
     background: #fff;
     padding: 5px;
@@ -408,7 +379,7 @@ h1 {
 .annonce:hover {
 
     transform: scale(1.1);
-    
+
 }
 
 
@@ -423,7 +394,7 @@ h1 {
     box-sizing: border-box;
     border-radius: 25px 25px 0 0;
     height: 130px;
-     
+
 }
 
 
@@ -433,7 +404,7 @@ h1 {
 .description {
 
     padding-left: 20px;
-   
+
 }
 
 
@@ -441,7 +412,7 @@ h1 {
 .description h3 {
 
     font-size: 18px;
-    
+
 }
 
 
@@ -461,7 +432,7 @@ h1 {
     color: #0065FC;
     font-size: 13px;
     padding-top: 20px;
-    
+
 }
 
 
@@ -469,20 +440,20 @@ h1 {
 
 .affiche {
 
-    
+
     font-family: 'raleway', sans-serif;
     font-size: 17px;
     font-weight: bold;
     padding-top: 40px;
     margin-bottom: 50px;
     margin-left: 30px;
-    
+
 }
 
 
 .affiche a {
 
-    
+
     text-decoration: none;
     color: #000;
     cursor: pointer;
@@ -496,23 +467,24 @@ h1 {
 
 
 
-/* ------- CORPS DE LA PAGE - HEBERGEMENT / LES PLUS POPULAIRES ---------- */
+/* ------- CORPS DE LA PAGE / LES PLUS POPULAIRES ---------- */
 
 
 
 #hebergements {
 
     display: flex;
+    justify-content: space-between;
     margin-top: 30px;
-    width: 90%;
-    
+   
+
 }
 
 
 
 
 
-.populaire {
+#best {
 
     display: flex;
     flex-direction: column;
@@ -521,7 +493,7 @@ h1 {
     margin-left: 40px;
     background: #f2f2f2;
     border-radius: 20px;
-    
+
 }
 
 
@@ -529,9 +501,9 @@ h1 {
 
 .block {
 
-    display: flex;   
-    
-     
+    display: flex;
+
+
 }
 
 
@@ -594,7 +566,7 @@ h1 {
     object-fit: cover;
     margin-top: 5px;
     border-radius: 20px 0 0px 20px;
-    
+
 
 }
 
@@ -603,11 +575,11 @@ h1 {
 
 .resum {
 
-    
+
     font-size: 15px;
     padding-bottom: 50px;
     margin: 10px;
-   
+
 }
 
 
@@ -618,7 +590,7 @@ h1 {
 
     font-size: 18px;
 
-    
+
 }
 
 
@@ -626,7 +598,7 @@ h1 {
 .resum p {
 
     padding-top: 10px;
-    
+
 
 }
 
@@ -636,7 +608,7 @@ h1 {
 
 .resum i {
 
-   
+
     color:#0065FC;
     font-size: 13px;
     margin-top: 35px;
@@ -669,7 +641,7 @@ h1 {
 
 .marseille {
 
-    
+
     padding-top: 10px;
     margin-left: 50px;
 
@@ -681,7 +653,7 @@ h1 {
 
     display: flex;
     flex-wrap: wrap;
-    
+
 }
 
 
@@ -712,12 +684,12 @@ h1 {
 
 .grandes img {
 
-    
+
     width: 320px;
     height: 390px;
     object-fit: cover;
     border-radius: 20px 20px 0px 0px;
-    
+
 }
 
 
@@ -729,7 +701,7 @@ h1 {
     margin-top: 8px;
     padding-bottom: 10px;
     border-radius: 5px;
-    
+
 }
 
 
@@ -737,7 +709,7 @@ h1 {
 
 a {
 
-    
+
     text-decoration: none;
     color: #000;
 
@@ -757,7 +729,7 @@ a {
 
     margin-top: 40px;
     margin-left: 50px;
-    
+
 }
 
 
@@ -907,7 +879,7 @@ a {
     height: 147px;
     object-fit: cover;
     border-radius: 20px 20px 0px 0px;
-    
+
 }
 
 
@@ -929,7 +901,7 @@ footer {
 
     background: #f2f2f2;
     width: 100%;
-    
+
 }
 
 
@@ -940,7 +912,7 @@ footer {
     margin-right: 200px;
     padding-top: 20px;
     justify-content: space-evenly;
-    
+
 }
 
 
@@ -959,10 +931,10 @@ footer {
 
 .fin ul {
 
-    
+
     list-style-type: none;
-    padding-top: 30px;
-    
+    padding-top: 10px;
+
 }
 
 
@@ -971,3 +943,4 @@ footer {
     padding-top: 10px;
 
 }
+
