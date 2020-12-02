@@ -52,7 +52,7 @@
     }
 
 
-    li a {
+    header li a {
 
         color: #0065FC;
 
@@ -380,36 +380,134 @@
 /* ----------- CORPS DE LA PAGE - HEBERGEMENT -------------- */
 
 
-@media (max-width: 1705px) {
-
-
-    #locations {
-
-        
-
-    }
+@media (max-width: 1700px) {
 
 
     .container {
 
+        display: flex;
         
-        
-        
+
+    }
+
+
+
+
+    .annonce {
+
+        display: flex;
+        flex-wrap: wrap;
+        margin-left: 90px;
+        width: calc(38% - 60px);
+
+    }
+
+
+    .description {
+
+        margin-top: 5px;
+    
     }
     
 
 
-    .annonces {
 
-        
+}
+
+
+
+@media (max-width: 1450px) {
+
+
+    #locations {
+
+        border-radius: 0;
+        margin-left: 0;
+        width: 100%;
+        background-color: #fff;
 
     }
 
 
 
 
+    .annonce {
+
+        margin-right: 50px;
+        width: calc(25% - 60px);
+    }
+
+
 
 }
+
+
+
+
+
+@media (max-width: 1180px) {
+
+
+
+
+
+    .annonce {
+
+        
+        width: calc(30% - 60px);
+    }
+
+
+
+}
+
+
+
+
+@media (max-width: 1000px) {
+
+
+
+
+
+    .annonce {
+
+        display: flex;
+        width: calc(80% - 60px);
+    }
+
+
+
+}
+
+
+
+
+
+@media (max-width: 500px) {
+
+
+
+
+
+    .annonce {
+
+        display: flex;
+        margin-left: 25px;
+        width: calc(100% - 60px);
+    }
+
+
+
+}
+
+
+
+
+
+    
+
+
 
 
 
@@ -426,7 +524,7 @@
 
 
 
-@media (max-width: 1024px) {
+@media (max-width: 1450px) {
 
 
 
@@ -439,17 +537,6 @@
     }
 
 
-
-  
-    
-
-
-
-    #best {
-  
-        width: 100%;
-        
-    }
 
 
 
