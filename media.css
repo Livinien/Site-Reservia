@@ -538,6 +538,25 @@
 
 
 
+@media (max-width: 1700px) {
+
+
+    .most-popular {
+
+        margin-top: 120px;
+
+    }
+
+
+}
+
+
+
+
+
+
+
+
 
 @media (max-width: 1450px) {
 
@@ -564,7 +583,7 @@
         margin-bottom: 20px;
         border-radius: 0;
         padding-bottom: 50px;
-        margin: 0px;
+        margin-left: 0;
         
         
     }
@@ -576,6 +595,8 @@
 
         width: 530px;
         height: 150px;
+        margin-top: 50px;
+
        
     }
 
@@ -654,8 +675,37 @@
 
 
 
+}
+
+
+
+
+@media (max-width: 500px) {
+
+    
+
+    .most-popular:nth-child(2) i {
+
+        margin-top: 10px;
+        
+    }
+
+
+
+
+
+
+    .most-popular:nth-child(4) i {
+
+        margin-top: 8px;
+        
+    }
+
+
+
 
 }
+
 
 
 
@@ -983,6 +1033,7 @@
 
 
 
+        
 
  @media (max-width: 980px) {
 
