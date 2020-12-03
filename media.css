@@ -598,8 +598,16 @@
 
     .most-popular {
 
-        width: 85%;
+        width: 80%;
 
+    }
+
+
+    .most-popular img {
+
+        height: 140px;
+        width: 150px;
+    
     }
 
 
