@@ -448,9 +448,6 @@
 @media (max-width: 1180px) {
 
 
-
-
-
     .annonce {
 
         
@@ -465,8 +462,6 @@
 
 
 @media (max-width: 1000px) {
-
-
 
 
 
@@ -559,35 +554,77 @@
 
     .most-popular {
 
-        margin-top: 40px;
-
-
+        width: 530px;
+        height: 150px;
+       
     }
 
 
 
+    .most-popular img {
+
+        height: 140px;
+        width: 220px;
+    
+    }
 
 
+    .most-popular:nth-child(3) i {
 
-}
-
-
-
-
-
-@media (max-width: 540px) {
-
-
-
-    #hebergements {
-
-        width: 100%;
+        margin-top: 15px;
         
     }
 
 
 
+    .resum i {
+
+
+        font-size: 15px;
+        padding-top: 20px;
+        
+    
+    }
+    
+
+
+
 }
+
+
+
+
+@media (max-width: 600px) {
+
+    .most-popular {
+
+        width: 85%;
+
+    }
+
+
+    .most-popular:nth-child(2) i {
+
+        margin-top: 15px;
+        
+    }
+
+
+    .most-popular:nth-child(4) i {
+
+        margin-top: 15px;
+        
+    }
+
+
+
+
+}
+
+
+
+
+
 
 
 
