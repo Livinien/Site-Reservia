@@ -242,6 +242,28 @@
 
 
 
+@media (max-width: 550px) {
+
+
+    .post {
+
+        width: 250px;
+
+    }
+
+    
+    .logo_recherche_2  {
+
+            
+        width: 50%;
+       
+    }
+
+
+
+
+
+}
 
 
 
@@ -511,8 +533,6 @@
 
 
 
-
-
 /* --------- CORPS DE LA PAGE / LES PLUS POPULAIRES ------------ */
 
 
@@ -613,14 +633,22 @@
 
     .most-popular:nth-child(2) i {
 
-        margin-top: 15px;
+        margin-top: 30px;
         
     }
 
 
+    .most-popular:nth-child(3) i {
+
+        margin-top: 10px;
+        
+    }
+
+
+
     .most-popular:nth-child(4) i {
 
-        margin-top: 15px;
+        margin-top: 35px;
         
     }
 
@@ -633,7 +661,136 @@
 
 
 
+@media (max-width: 400px) {
 
+    .most-popular:nth-child(2) i {
+
+        margin-top: auto;
+        
+    }
+
+
+}
+
+
+
+
+
+
+
+@media (max-width: 420px) {
+
+
+
+    .most-popular:nth-child(3) i {
+
+        margin-top: auto;
+        
+    }
+
+
+
+
+}
+
+
+
+@media (max-width: 400px) {
+
+    .most-popular:nth-child(2) i {
+
+        margin-top: auto;
+        
+    }
+
+
+}
+
+
+
+
+@media (max-width: 483px) {
+
+
+
+    .most-popular:nth-child(2) i {
+
+        margin-top: -10px;
+        
+    }
+
+
+
+    .most-popular:nth-child(3) i {
+
+        margin-top: -10px;
+        
+    }
+
+
+
+    .most-popular:nth-child(4) i {
+
+        margin-top: -10px;
+        
+    }
+
+
+
+}
+
+
+
+
+@media (max-width: 375px) {
+
+
+   
+
+    .most-popular:nth-child(4) i {
+
+        margin-top: 30px;
+        
+    }
+
+
+}
+
+
+
+
+
+
+
+@media (max-width: 363px) {
+
+
+
+    .most-popular:nth-child(2) i {
+
+        margin-top: -10px;
+        
+    }
+
+
+
+    .most-popular:nth-child(3) i {
+
+        margin-top: -10px;
+        
+    }
+
+
+
+    .most-popular:nth-child(4) i {
+
+        margin-top: -10px;
+        
+    }
+
+
+
+}
 
 
 
