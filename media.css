@@ -3,8 +3,10 @@
            
            
            
-           
            /* -------------------- HEADER ---------------------------- */
+
+
+
 
 
 @media (max-width: 980px) {
@@ -260,10 +262,33 @@
     }
 
 
+}
+
+
+
+@media (max-width: 400px) {
+
+    #search {
+
+        display: flex;
+        width: 95%;
+
+    }
+
+
+
+    .logo_recherche_2  {
+
+            
+        width: 35%;
+       
+    }
 
 
 
 }
+
+
 
 
 
@@ -402,6 +427,7 @@
 /* ----------- CORPS DE LA PAGE - HEBERGEMENT -------------- */
 
 
+
 @media (max-width: 1700px) {
 
 
@@ -460,6 +486,13 @@
     }
 
 
+    .affiche {
+
+        margin-left: 50px;
+
+    }
+
+
 
 }
 
@@ -490,9 +523,25 @@
     .annonce {
 
         display: flex;
-        width: calc(80% - 60px);
+        width: calc(100% - 10px);
+        margin-left: 25px;
     }
 
+
+  
+
+}
+
+
+
+
+@media (max-width: 630px) {
+
+    .annonce {
+
+        width: calc(100% - 50px);
+
+    }
 
 
 }
@@ -511,7 +560,7 @@
 
         display: flex;
         margin-left: 25px;
-        width: calc(100% - 60px);
+        width: calc(100% - 5px);
     }
 
 
@@ -520,9 +569,56 @@
 
 
 
+@media (max-width: 400px) {
+
+    #locations h2 {
+
+        font-size: 23px;
+
+    }
 
 
-    
+    .annonce {
+
+        width: 600px;
+
+    }
+
+
+}
+
+
+
+
+@media (max-width: 390px) {
+
+    #locations .titre {
+
+        font-size: 20px;
+
+    }
+
+
+}
+
+
+
+
+
+@media (max-width: 360px) {
+
+    #locations .titre {
+
+        font-size: 18px;
+
+    }
+
+
+}
+
+
+
+
 
 
 
@@ -679,8 +775,24 @@
 
 
 
+@media (max-width: 630px) {
 
-@media (max-width: 500px) {
+    .populaire {
+
+        padding-right: 30px;
+        
+
+    }
+
+
+}
+
+
+
+
+
+
+@media (max-width: 515px) {
 
     
 
@@ -717,6 +829,13 @@
 
         margin-top: auto;
         
+    }
+
+
+    .populaire {
+
+        padding-right: 25px;
+
     }
 
 
@@ -786,25 +905,71 @@
     }
 
 
+    .titre2 {
+
+        font-size: 20px;
+
+    }
+
+
+    .block i {
+
+        font-size: 20px;
+
+    }
+
+
+
 
 }
 
 
 
 
-@media (max-width: 375px) {
 
 
-   
+@media (max-width: 390px) {
 
-    .most-popular:nth-child(4) i {
+    .most-popular:nth-child(2) i {
 
-        margin-top: 30px;
+        font-size: 12px;
         
     }
 
 
+
+    .most-popular:nth-child(3) i {
+
+    
+        font-size: 12px;
+        
+    }
+
+
+    .most-popular h3 {
+
+    
+        font-size: 14px;
+        
+    }
+
+
+
+
+    .most-popular:nth-child(4) i {
+
+        font-size: 12px;
+        margin-top: -10px;
+        
+    }
+
+
+
+   
 }
+
+
+
 
 
 
@@ -840,6 +1005,55 @@
 
 
 
+
+
+}
+
+
+
+
+@media (max-width: 355px) {
+
+
+    .titre2 {
+
+        font-size: 17px;
+
+    }
+
+
+
+    .block i {
+
+        font-size: 15px;
+
+    }
+
+
+
+
+
+    .most-popular img {
+
+        height: 140px;
+        width: 130px;
+    
+    }
+
+}
+
+
+
+
+@media (max-width: 385px) {
+
+    .most-popular img {
+
+        height: 140px;
+        width: 110px;
+    
+    }
+
 }
 
 
@@ -848,7 +1062,52 @@
 
 
 
+
 /*--------------- ACTIVITES A MARSEILLE ----------------> */
+
+
+
+
+@media (max-width: 600px) {
+
+    .pictures {
+
+        margin-right: 10px;
+
+    }
+
+
+}
+
+
+
+@media (max-width: 630px) {
+
+    .pictures {
+
+        width: calc(99% - 10px);
+
+    }
+
+
+}
+
+
+
+@media (max-width: 450px) {
+
+    .pictures {
+
+        margin-right: 20px;
+
+    }
+
+
+}
+
+
+
+
 
 
 
@@ -1019,8 +1278,36 @@
     }
 
 
+
+
+    @media (max-width: 390px) {
+
+        .marseille h2 {
+
+            font-size: 20px;
+
+        }
+
+
+    }
+
+
     
 }
+
+
+
+@media (max-width: 360px) {
+
+    .marseille h2 {
+
+        font-size: 18px;
+
+    }
+
+
+}
+
 
 
 
