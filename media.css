@@ -1,9 +1,157 @@
 
+/* ----------------------------------------------------------------- LE CORPS DU SITE WEB ------------------- */
+
+
+
+
+@media (min-width: 1700px) and (max-width: 1920px) {
+
+    
+    header {
+
+        
+    }
+
+
+
+
+
+    header img {
+
+        margin-left: 185px;
+
+    }
+
+
+
+
+
+
+
+
+
+    #vacances h1 {
+
+        margin-left: 140px;
+
+    }
+
+
+    #vacances p {
+
+        margin-left: 140px;
+
+    }
+
+
+
+    .themes {
+
+        margin-left: 140px;
+
+    }
+
+
+
+
+    .post {
+
+        margin-left: 140px;
+
+    }
+
+
+
+    .info {
+
+        margin-left: 140px;
+    
+
+    }
+
+
+
+    #hebergements {
+
+        margin-left: 120px;
+
+    }
+
+
+    #activites {
+
+        margin-left: 140px;
+
+    }
+    
+
+
+
+    #locations {
+
+        width: 61%;
+        height: 10%;
+        margin-left: 70px;
+    
+    }
+    
+    
+
+
+    .populaire {
+
+        width: 430px;
+        height: 100%;
+        margin-left: 40px;
+        
+    }
+
+
+    
+    .most-popular {
+
+        margin-left: 50px;
+        width: 330px;    
+
+    }
+
+
+
+    .fin {
+
+        padding-right: 70px;
+        
+    }
+
+
+    .fin:nth-child(2) {
+   
+        padding-right: 170px;
+
+
+    }
+
+
+    .fin:nth-child(3) {
+   
+        padding-right: 220px;
+
+
+    }
+
+
+
+
+}
+
+
+
+
+
 
            
            
-           
-           /* -------------------- HEADER ---------------------------- */
+            /* -------------------- HEADER ---------------------------- */
 
 
 
@@ -1330,6 +1478,7 @@
         display: flex;
         flex-direction: column;
         width: 100%;
+        
 
     }
 
@@ -1338,7 +1487,7 @@
     .fin {
 
         padding-bottom: 20px;
-
+        margin-left: 30px ;
     }
 
 
