@@ -4,16 +4,9 @@
 
 
 
-@media (min-width: 1700px) and (max-width: 1920px) {
+@media (min-width: 1700px) and (max-width: 1921px) {
 
     
-    header {
-
-        
-    }
-
-
-
 
 
     header img {
@@ -21,10 +14,6 @@
         margin-left: 185px;
 
     }
-
-
-
-
 
 
 
@@ -144,6 +133,29 @@
 
 }
 
+
+
+
+
+@media (max-width: 1920px) {
+
+    
+    header ul li {
+
+        width: -150px;
+        
+    }
+
+
+    header a {
+
+       
+       
+    }
+
+
+
+}
 
 
 
@@ -322,7 +334,7 @@
 
 
 
-@media (max-width: 1920px) {
+@media (max-width: 1921px) {
 
 
     .logo_recherche_1  {
@@ -340,7 +352,7 @@
             
             
 
-@media (max-width: 1920px) {
+@media (max-width: 1921px) {
 
 
     .logo_recherche_2  {
@@ -444,7 +456,7 @@
 
 
 
-@media (max-width: 1920px) {
+@media (max-width: 1921px) {
 
 
 
@@ -682,6 +694,22 @@
 
 
 
+@media (max-width: 794px) {
+
+    .affiche a {
+
+        position: relative;
+        bottom: 30px;
+
+    }
+
+
+
+}
+
+
+
+
 
 @media (max-width: 630px) {
 
@@ -763,6 +791,12 @@
 
 
 }
+
+
+
+
+
+
 
 
 
@@ -1193,6 +1227,21 @@
 
 
 
+@media (max-width: 350px) {
+
+
+    .most-popular {
+
+       margin-left: 19px;
+
+    }
+
+
+}
+
+
+
+
 @media (max-width: 385px) {
 
     .most-popular img {
@@ -1254,6 +1303,17 @@
 }
 
 
+
+@media (max-width: 345px) {
+
+    .pictures {
+
+        margin-left: -5px;
+
+    }
+
+
+}
 
 
 
@@ -1322,7 +1382,7 @@
     .petite {
 
         
-        width: calc(95% - 60px);
+        width: calc(95% - 90px);
         padding: 5px;
         border-radius: 25px;
         
