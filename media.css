@@ -4,7 +4,7 @@
 
 
 
-@media (min-width: 1700px) and (max-width: 1921px) {
+@media (min-width: 1700px) and (max-width: 1930px) {
 
     
 
@@ -137,19 +137,67 @@
 
 
 
-@media (max-width: 1920px) {
+@media (max-width: 1930px) {
 
     
     header ul li {
 
-        width: -150px;
+        margin-left: 80px;
+        width: 100px;
         
     }
 
 
     header a {
 
+        width: 13%;
        
+    }
+
+
+
+}
+
+
+
+@media (max-width: 1700px) {
+
+    
+    header ul li {
+
+        margin-left: 80px;
+        width: 100px;
+        
+    }
+
+
+    header a {
+
+        width: 17%;
+       
+    }
+
+
+
+}
+
+
+
+
+@media (min-width: 1700px) and (max-width: 1900px) {
+
+    
+    header ul li {
+
+        margin-left: 80px;
+        width: 100px;
+        
+    }
+
+
+    header a {
+
+        width: 12%;
        
     }
 
@@ -334,7 +382,7 @@
 
 
 
-@media (max-width: 1921px) {
+@media (max-width: 1930px) {
 
 
     .logo_recherche_1  {
@@ -352,7 +400,7 @@
             
             
 
-@media (max-width: 1921px) {
+@media (max-width: 1930px) {
 
 
     .logo_recherche_2  {
@@ -456,7 +504,7 @@
 
 
 
-@media (max-width: 1921px) {
+@media (max-width: 1930px) {
 
 
 
@@ -679,18 +727,31 @@
 @media (max-width: 1000px) {
 
 
+    .titre {
+
+        margin-left: 30px;
+
+    }
+
+
+
+    .container {
+
+        
+    }
+
 
     .annonce {
 
-        display: flex;
-        width: calc(100% - 10px);
-        margin-left: 25px;
+        width: 100%;
+        margin-left: 27px;
     }
 
 
   
-
 }
+
+
 
 
 
@@ -833,9 +894,6 @@
 
 
 
-
-
-
 @media (max-width: 1450px) {
 
 
@@ -913,11 +971,13 @@
 
 
 
-@media (max-width: 600px) {
+
+@media (max-width: 1000px) {
 
     .most-popular {
 
-        width: 80%;
+        margin-right: 33px;
+        width: 94%;
 
     }
 
@@ -925,32 +985,31 @@
     .most-popular img {
 
         height: 140px;
-        width: 150px;
+        width: 480px;
     
     }
 
 
-    .most-popular:nth-child(2) i {
+}
 
-        margin-top: 30px;
-        
+
+
+@media (max-width: 800px) {
+
+    .most-popular {
+
+        margin-right: 35px;
+        width: 91%;
+
     }
 
 
-    .most-popular:nth-child(3) i {
+    .most-popular img {
 
-        margin-top: 10px;
-        
+        height: 140px;
+        width: 55%;
+    
     }
-
-
-
-    .most-popular:nth-child(4) i {
-
-        margin-top: 35px;
-        
-    }
-
 
 
 }
@@ -958,6 +1017,7 @@
 
 
 @media (max-width: 630px) {
+
 
     .populaire {
 
@@ -967,57 +1027,42 @@
     }
 
 
-}
+
+    .most-popular {
+
+        margin-right: 5px;
+        width: 96%;
+
+    }
 
 
+    .most-popular img {
 
-
-
-
-@media (max-width: 515px) {
-
+        height: 140px;
+        width: 40%;
     
-
-    .most-popular:nth-child(2) i {
-
-        margin-top: 10px;
-        
     }
-
-
-
-
-
-
-    .most-popular:nth-child(4) i {
-
-        margin-top: 8px;
-        
-    }
-
-
 
 
 }
 
 
 
+@media (max-width: 560px) {
 
+    .most-popular {
 
+        margin-right: 1px;
+        width: 95%;
 
-@media (max-width: 400px) {
-
-    .most-popular:nth-child(2) i {
-
-        margin-top: auto;
-        
     }
 
 
-    .populaire {
+    .most-popular img {
 
-        padding-right: 25px;
-
+        height: 140px;
+        width: 40%;
+    
     }
 
 
@@ -1026,65 +1071,49 @@
 
 
 
+@media (max-width: 500px) {
+
+    .most-popular {
+
+        margin-right: 1px;
+        width: 95%;
+
+    }
 
 
+    .most-popular img {
 
-@media (max-width: 420px) {
-
-
-
-    .most-popular:nth-child(3) i {
-
-        margin-top: auto;
-        
+        height: 140px;
+        width: 40%;
+    
     }
 
 
 
+    .block h2 {
 
-}
+        position: relative;
+        left: -75px;
 
-
-
-@media (max-width: 400px) {
-
-    .most-popular:nth-child(2) i {
-
-        margin-top: auto;
-        
     }
 
 
-}
+    .block i {
 
+        position: relative;
+        right: -55px;
+
+    }
+
+
+
+}
 
 
 
 @media (max-width: 483px) {
 
 
-
-    .most-popular:nth-child(2) i {
-
-        margin-top: -10px;
-        
-    }
-
-
-
-    .most-popular:nth-child(3) i {
-
-        margin-top: -10px;
-        
-    }
-
-
-
-    .most-popular:nth-child(4) i {
-
-        margin-top: -10px;
-        
-    }
 
 
     .titre2 {
@@ -1110,11 +1139,28 @@
 
 
 
-@media (max-width: 390px) {
+
+@media (max-width: 446px) {
+
+    .most-popular {
+
+        margin-right: 1px;
+        width: 95%;
+
+    }
+
+
+    .most-popular img {
+
+        height: 140px;
+        width: 40%;
+    
+    }
+
 
     .most-popular:nth-child(2) i {
 
-        font-size: 12px;
+        margin-top: 20px;
         
     }
 
@@ -1122,32 +1168,62 @@
 
     .most-popular:nth-child(3) i {
 
-    
-        font-size: 12px;
+        margin-top: 20px;
         
     }
-
-
-    .most-popular h3 {
-
-    
-        font-size: 14px;
-        
-    }
-
 
 
 
     .most-popular:nth-child(4) i {
 
-        font-size: 12px;
-        margin-top: -10px;
+        margin-top: 20px;
         
     }
 
 
 
-   
+
+    .block h2 {
+
+        position: relative;
+        left: -65px;
+
+    }
+
+
+    .block i {
+
+        position: relative;
+        right: -40px;
+
+    }
+
+
+
+}
+
+
+
+
+@media (max-width: 394px) {
+
+
+    .block h2 {
+
+        position: relative;
+        left: -40px;
+
+    }
+
+
+    .block i {
+
+        position: relative;
+        right: -10px;
+
+    }
+
+
 }
 
 
@@ -1155,37 +1231,44 @@
 
 
 
+@media (max-width: 390px) {
 
 
+    .most-popular img {
 
+        height: 140px;
+        width: 45%;
+    
+    }
 
-@media (max-width: 363px) {
 
 
 
     .most-popular:nth-child(2) i {
 
-        margin-top: -10px;
-        
+        font-size: 12px;
+        margin-top: 0px;
     }
 
 
 
     .most-popular:nth-child(3) i {
 
-        margin-top: -10px;
+        margin-top: 0;
+        font-size: 12px;
         
     }
+
+
 
 
 
     .most-popular:nth-child(4) i {
 
-        margin-top: -10px;
+        font-size: 12px;
+        margin-top: 20px;
         
     }
-
-
 
 
 
@@ -1214,14 +1297,6 @@
 
 
 
-
-    .most-popular img {
-
-        height: 140px;
-        width: 130px;
-    
-    }
-
 }
 
 
@@ -1232,26 +1307,30 @@
 
     .most-popular {
 
-       margin-left: 19px;
+        margin-right: 1px;
+        width: 95%;
 
     }
 
-
-}
-
-
-
-
-@media (max-width: 385px) {
 
     .most-popular img {
 
         height: 140px;
-        width: 110px;
+        width: 40%;
     
     }
 
+
+    .block h2 {
+
+        position: relative;
+        left: -30px;
+
+    }
+
+
 }
+
 
 
 
@@ -1261,6 +1340,17 @@
 
 
 /*--------------- ACTIVITES A MARSEILLE ----------------> */
+
+
+@media (max-width: 800px) {
+
+    #activites {
+
+        margin-left: -18px;
+
+    }
+
+}
 
 
 
@@ -1382,7 +1472,7 @@
     .petite {
 
         
-        width: calc(95% - 90px);
+        width: 90%;
         padding: 5px;
         border-radius: 25px;
         
@@ -1398,6 +1488,99 @@
         
     
     }
+
+
+
+@media (max-width: 500px) {
+
+
+    .pictures {
+
+        width: 96%
+
+    }
+
+
+
+
+    .petite {
+
+        width: 100%;
+
+    }
+
+
+
+}
+
+
+
+
+@media (max-width: 480px) {
+
+
+    
+
+
+    .pictures {
+
+        width: 95%
+        
+    }
+
+
+
+
+}
+
+
+
+@media (max-width: 440px) {
+
+
+    
+    .pictures {
+
+        
+        width: 94%;
+
+    }
+
+
+
+}
+
+
+
+@media (max-width: 350px) {
+
+
+    #activites {
+
+       position: relative;
+       right: 5px;
+
+    }
+
+
+
+    .pictures {
+        
+        width: 97%;
+
+    }
+
+
+
+}
+
+
+
+
+
+
+
+
     
 
 
@@ -1445,7 +1628,7 @@
  
     .grandes {
 
-        width: calc(95% - 60px);
+        width: 89%;
         border-radius: 25px;
         margin-left: 50px;
         box-shadow: 0px 0px 20px 0px;
@@ -1459,7 +1642,8 @@
     .port img {
 
         width: 100%;
-        height: 170px;
+        margin-left: 0px;
+        height: 200px;
         border-radius: 25px 25px 0 0;
         
     
@@ -1547,7 +1731,7 @@
     .fin {
 
         padding-bottom: 20px;
-        margin-left: 30px ;
+        margin-left: 10px ;
     }
 
 
