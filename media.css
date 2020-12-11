@@ -672,41 +672,6 @@
 
 
 
-@media (max-width: 1450px) {
-
-
-    #locations {
-
-        border-radius: 0;
-        margin-left: 0;
-        width: 100%;
-        background-color: #fff;
-
-    }
-
-
-
-
-    .annonce {
-
-        margin-right: 50px;
-        width: calc(25% - 60px);
-    }
-
-
-    .affiche {
-
-        margin-left: 50px;
-
-    }
-
-
-
-}
-
-
-
-
 
 @media (max-width: 1180px) {
 
@@ -727,9 +692,17 @@
 @media (max-width: 1000px) {
 
 
+    #locations {
+
+        background:#fff;
+        width: 100%;
+
+    }
+
+
     .titre {
 
-        margin-left: 30px;
+        margin-left: 0px;
 
     }
 
@@ -737,14 +710,17 @@
 
     .container {
 
-        
+       
+
     }
+
 
 
     .annonce {
 
-        width: 100%;
-        margin-left: 27px;
+        
+        
+        
     }
 
 
@@ -755,12 +731,30 @@
 
 
 
-@media (max-width: 794px) {
+
+@media (max-width: 700px) {
+
+    .titre {
+
+        margin-left: 30px;
+
+    }
+
+
+
+    .annonce {
+
+        width: 100%;
+        margin-left: 27px;
+        
+
+    }
+
 
     .affiche a {
 
         position: relative;
-        bottom: 30px;
+        right: 20px;
 
     }
 
@@ -876,16 +870,14 @@
 
 
 
-
 @media (max-width: 1700px) {
-
 
     .most-popular {
 
-        margin-top: 120px;
+        margin-left: 35px;
+        margin-top: 115px;
 
     }
-
 
 }
 
@@ -894,7 +886,7 @@
 
 
 
-@media (max-width: 1450px) {
+@media (max-width: 1000px) {
 
 
 
@@ -972,56 +964,14 @@
 
 
 
-@media (max-width: 1000px) {
 
-    .most-popular {
-
-        margin-right: 33px;
-        width: 94%;
-
-    }
-
-
-    .most-popular img {
-
-        height: 140px;
-        width: 480px;
-    
-    }
-
-
-}
-
-
-
-@media (max-width: 800px) {
-
-    .most-popular {
-
-        margin-right: 35px;
-        width: 91%;
-
-    }
-
-
-    .most-popular img {
-
-        height: 140px;
-        width: 55%;
-    
-    }
-
-
-}
-
-
-
-@media (max-width: 630px) {
+@media (max-width: 700px) {
 
 
     .populaire {
 
-        padding-right: 30px;
+        width: (100% - 60px);
+        padding-right: 25px;
         
 
     }
@@ -1030,7 +980,7 @@
 
     .most-popular {
 
-        margin-right: 5px;
+
         width: 96%;
 
     }
@@ -1044,97 +994,23 @@
     }
 
 
-}
 
+    .block .titre2 {
 
-
-@media (max-width: 560px) {
-
-    .most-popular {
-
-        margin-right: 1px;
-        width: 95%;
-
-    }
-
-
-    .most-popular img {
-
-        height: 140px;
-        width: 40%;
-    
-    }
-
-
-}
-
-
-
-
-@media (max-width: 500px) {
-
-    .most-popular {
-
-        margin-right: 1px;
-        width: 95%;
-
-    }
-
-
-    .most-popular img {
-
-        height: 140px;
-        width: 40%;
-    
-    }
-
-
-
-    .block h2 {
-
-        position: relative;
-        left: -75px;
+        
 
     }
 
 
     .block i {
 
-        position: relative;
-        right: -55px;
+        
 
     }
 
 
 
 }
-
-
-
-@media (max-width: 483px) {
-
-
-
-
-    .titre2 {
-
-        font-size: 20px;
-
-    }
-
-
-    .block i {
-
-        font-size: 20px;
-
-    }
-
-
-
-
-}
-
-
 
 
 
@@ -1183,49 +1059,7 @@
 
 
 
-    .block h2 {
-
-        position: relative;
-        left: -65px;
-
-    }
-
-
-    .block i {
-
-        position: relative;
-        right: -40px;
-
-    }
-
-
-
 }
-
-
-
-
-@media (max-width: 394px) {
-
-
-    .block h2 {
-
-        position: relative;
-        left: -40px;
-
-    }
-
-
-    .block i {
-
-        position: relative;
-        right: -10px;
-
-    }
-
-
-}
-
 
 
 
@@ -1277,30 +1111,6 @@
 
 
 
-@media (max-width: 355px) {
-
-
-    .titre2 {
-
-        font-size: 17px;
-
-    }
-
-
-
-    .block i {
-
-        font-size: 15px;
-
-    }
-
-
-
-
-}
-
-
-
 
 @media (max-width: 350px) {
 
@@ -1321,12 +1131,6 @@
     }
 
 
-    .block h2 {
-
-        position: relative;
-        left: -30px;
-
-    }
 
 
 }
@@ -1519,13 +1323,19 @@
 @media (max-width: 480px) {
 
 
-    
-
-
     .pictures {
 
         width: 95%
         
+    }
+
+
+
+    .petite {
+
+        margin-right: -4px;
+        width: 100%;
+
     }
 
 
