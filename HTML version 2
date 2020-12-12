@@ -22,27 +22,25 @@
 
                      <!-- HEADER -->
 
-  
+    <header class="mainContainer">
+            
+        <img src="logo/Reservia.svg" alt="logo reservia">
 
-<header>
 
-
-    <nav>
-
- 
-        <ul class="navigation">
-            <li class="logo"><img src="logo/Reservia.svg" alt="logo reservia"></li>
-            <li class="underline1"><a href="#host">Hébergements</a></li>
-            <li class="underline2"><a href="#hobbies">Activités</a></li>
-            <li class="bleu"><a href="#"><strong>S'inscrire</strong></a></li>
+        <ul>
+            <li><a href="#">Hébergements</a></li>
+            <li><a href="#">Activités</a></li>
         </ul>
 
+
+        <a href="#"><strong>S'inscrire</strong></a>
+
     
-    </nav>
+    
+
+    </header>
 
 
-
-</header>
 
 
 
@@ -51,7 +49,7 @@
 
                     <!-- SECONDE PARTIE DU HEADER -->
 
-<section id="vacances">
+<section class="mainContainer" id="vacances">
 
         <h1>Trouvez votre hébergement pour des vacances de rêve</h1><br>
         <p>En plein centre ville ou en pleine nature</p>
@@ -92,7 +90,7 @@
 
          
 
-
+<div class="mainContainer">
 
     <div class="themes">
 
@@ -128,10 +126,11 @@
 
     </div>
 
+</div>
 
 
 
-
+<div class="mainContainer">
 
 
     <section class="information">
@@ -145,7 +144,7 @@
 
     </section>
 
-
+</div>
 
 
 
@@ -160,7 +159,7 @@
 
     
 
-<section id="hebergements" >
+<section class="mainContainer" id="hebergements" >
 
 
     <article id="locations">
@@ -310,7 +309,11 @@
 
 
         <article id="best">  
-                    
+
+            <div class="populaire">
+                
+                
+            
             
                 <div class="block">
 
@@ -379,6 +382,9 @@
 
                     </div>
                 </div>
+            
+            </div>
+
         </article>  
 
 </section> 
@@ -391,150 +397,152 @@
 <!--------------- ACTIVITES A MARSEILLE ---------------->
 
 
-
-<section id="activites">
-
-
-    <div class="marseille">
-
-        <h2>Activités à Marseille</h2>
-
-    </div>
+<div class="mainContainer">
 
 
+    <section id="activites">
 
 
-    
-    
-    <div class="pictures">
+        <div class="marseille">
 
-        <div class="grandes">
+            <h2>Activités à Marseille</h2>
 
-            <div class="port">
-
-                <a href="#">
-
-                    <img src="images/activites/4_small/Photo10.jpg" alt="Photo du vieux port">
-
-
-                    <div class="soustitre">
-
-                        <h3>Vieux Port</h3>
-
-                    </div>
-                </a>
-            </div>
         </div>
+
+
+
+
         
-
-
-
         
-        <div class="petite">
+        <div class="pictures">
 
-            <a href="#">
+            <div class="grandes">
 
-                <div class="fort">
-        
+                <div class="port">
 
-            
-                    <img src="images/activites/4_small/Photo11.jpg" alt="Photo du fort de Pomègues">
+                    <a href="#">
+
+                        <img src="images/activites/3_medium/Photo 10_medium.jpg" alt="Photo du vieux port">
 
 
-                    <div class="soustitre">
+                        <div class="soustitre">
 
-                        <h3>Fort de Promègues</h3>
+                            <h3>Vieux Port</h3>
 
-                    </div>
+                        </div>
+                    </a>
                 </div>
-            </a>  
-
-
-
-            <div class="iles">
-
-                <a href="#">
-
-                    <img src="images/activites/4_small/Photo12.jpg" alt="Photo d'îles du Frioul">
-
-                    <div class="soustitre">
-
-                        <h3>Îles du Frioul</h3>
-
-                    </div>
-                </a>
-            </div>
-        </div>
-    
-
-
-
-
-
-
-
-        <div class="grandes">
-
-            <div class="parc">
-
-                <a href="#">
-
-                    <img src="images/activites/4_small/Photo13.jpg" alt="Photo du vieux port">
-
-
-                    <div class="soustitre">
-
-                        <h3>Parc National des Calanques</h3>
-
-                    </div>
-                </a>
-            </div>
-        </div>
-        
-
-
-
-
-
-        <div class="petite">
-
-            <div class="notre_dame">
-        
-                <a href="#">
-
-                    <img src="images/activites/4_small/Photo14.jpg" alt="Photo du fort de Pomègues">
-
-
-                    <div class="soustitre">
-
-                        <h3>Notre-Dame-de-la-Garde</h3>
-
-                    </div>
-                </a>
             </div>
             
 
 
 
-            <div class="longchamps">
+            
+            <div class="petite">
 
                 <a href="#">
 
-                    <img src="images/activites/4_small/Photo15.jpg" alt="Photo du parc Longchamps">
+                    <div class="fort">
+            
 
-                    <div class="soustitre">
+                
+                        <img src="images/activites/4_small/Photo11.jpg" alt="Photo du fort de Pomègues">
 
-                        <h3>Parc Longchamps</h3>
 
+                        <div class="soustitre">
+
+                            <h3>Fort de Promègues</h3>
+
+                        </div>
                     </div>
-                </a>
+                </a>  
+
+
+
+                <div class="iles">
+
+                    <a href="#">
+
+                        <img src="images/activites/4_small/Photo12.jpg" alt="Photo d'îles du Frioul">
+
+                        <div class="soustitre">
+
+                            <h3>Îles du Frioul</h3>
+
+                        </div>
+                    </a>
+                </div>
+            </div>
+        
+
+
+
+
+
+
+
+            <div class="grandes">
+
+                <div class="parc">
+
+                    <a href="#">
+
+                        <img src="images/activites/4_small/Photo13.jpg" alt="Photo du vieux port">
+
+
+                        <div class="soustitre">
+
+                            <h3>Parc National des Calanques</h3>
+
+                        </div>
+                    </a>
+                </div>
+            </div>
+            
+
+
+
+
+
+            <div class="petite">
+
+                <div class="notre_dame">
+            
+                    <a href="#">
+
+                        <img src="images/activites/4_small/Photo14.jpg" alt="Photo du fort de Pomègues">
+
+
+                        <div class="soustitre">
+
+                            <h3>Notre-Dame-de-la-Garde</h3>
+
+                        </div>
+                    </a>
+                </div>
+                
+
+
+
+                <div class="longchamps">
+
+                    <a href="#">
+
+                        <img src="images/activites/4_small/Photo15.jpg" alt="Photo du parc Longchamps">
+
+                        <div class="soustitre">
+
+                            <h3>Parc Longchamps</h3>
+
+                        </div>
+                    </a>
+                </div>
             </div>
         </div>
-    </div>
 
-</section>
+    </section>
 
-
+</div>
 
 
 
@@ -601,3 +609,5 @@
 
 
 </html>
+
+
