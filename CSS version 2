@@ -1,11 +1,19 @@
+*, ::before, ::after {
+
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+
+}
+
+
+
 body {
 
     font-family: 'raleway', sans-serif;
-    margin: 0;
-    padding: 0;
-    overflow-x: hidden;
-    
+    margin-top: 20px;
 }
+
 
 
 
@@ -13,66 +21,86 @@ body {
 /*----------- HEADER -----------*/
 
 
-nav ul {
+
+.mainContainer {
+
+    width: 1650px;
+    max-width: 100%;
+    margin: auto;
+
+}
+
+
+
+
+
+header {
 
     display: flex;
-    
-}
-
-
-nav ul li {
-
-    list-style-type: none;
-
+    align-items: center;
+    flex-wrap: wrap;
 
 }
 
 
 
-nav ul li a {
+header img {
 
-    text-decoration: none;
-    line-height: 40px;
-    color: #000;
+    padding: 0 2rem;
 
 }
 
 
 
+header a {
 
-nav li a:hover {
+    margin-right: 30px;
 
-    padding-top: 28px;
-    color :#0065FC;
+}
+
+
+
+header ul {
+
+    display: flex;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    margin-left: auto;
+    color: #0065FC;
+}
+
+
+
+header ul li a:hover {
+
     border-top: 2px solid #0065FC;
-
+    padding-top: 31px;
 }
 
 
+header ul li {
 
-
-.bleu a {
-
-    
-    color :#0065FC;
-
-}
-
-
-
-
-.bleu a :hover {
-
-    padding-top: 28px;
-    border-top: 2px solid #0065FC;
+    margin-left: 2rem;
     
 
 }
 
 
+header ul li a:hover {
+
+    color: #0065FC;
+
+}
 
 
 
+
+header > a {
+
+    margin-left: 2rem;
+    color: #0065FC;
+}
 
 
 
@@ -94,9 +122,22 @@ nav li a:hover {
 #vacances {
 
     margin-top: 50px;
-    margin-left: 50px;
+    
 }
 
+
+
+#vacances h1 {
+
+    margin: 0 2rem;
+
+}
+
+#vacances p {
+
+    margin: 0 2rem;
+
+}
 
 
 h1 {
@@ -124,6 +165,16 @@ h1 {
 /* ------------ BARRE DE RECHERCHE ----------------- */
 
 
+.mainContainer .post {
+
+    padding: 0 2rem;
+
+}
+
+
+
+
+
 
 .post {
 
@@ -145,6 +196,7 @@ h1 {
     font-weight: bold;
     font-size: 17px;
     outline: 0;
+
 }
 
 
@@ -188,9 +240,17 @@ h1 {
 
 
 
+
+
 /* ------------ FILTRES ----------------- */
 
 
+
+.mainContainer .themes {
+
+    padding: 0 2rem;
+
+}
 
 
 
@@ -199,7 +259,7 @@ h1 {
 .themes h2 {
 
     margin-top: 50px;
-    margin-left: 50px;
+    
 }
 
 
@@ -275,6 +335,12 @@ h1 {
 
 
 
+.mainContainer .information {
+
+    padding: 0 1.5rem;
+
+}
+
 
 
 
@@ -282,7 +348,7 @@ h1 {
 .information {
 
     margin-top: 40px;
-    margin-left: 50px;
+    
 
 }
 
@@ -337,6 +403,29 @@ h1 {
 
 
 
+#hebergements {
+
+    padding: 0 2rem;
+
+}
+
+
+
+
+
+#locations {
+
+    width: 62%;
+    height: 10%;
+    background: #f2f2f2;
+    border-radius: 20px;
+    
+
+}
+
+
+
+
 .titre {
 
 
@@ -351,11 +440,12 @@ h1 {
 
 .container {
 
-    padding-right: 20px;
+    
     display: flex;
     flex-wrap: wrap;
     align-items: stretch;
-    margin-left: 30px;
+    margin-left: 13px;
+    
 
 }
 
@@ -457,6 +547,7 @@ h1 {
     text-decoration: none;
     color: #000;
     cursor: pointer;
+    margin-left: 10px;
 }
 
 
@@ -474,9 +565,7 @@ h1 {
 #hebergements {
 
     display: flex;
-    justify-content: space-between;
     margin-top: 30px;
-   
 
 }
 
@@ -484,7 +573,7 @@ h1 {
 
 
 
-#best {
+.populaire {
 
     display: flex;
     flex-direction: column;
@@ -505,6 +594,9 @@ h1 {
 
 
 }
+
+
+
 
 
 .titre2 {
@@ -537,7 +629,7 @@ h1 {
     display: flex;
     background: #fff;
     margin-top: 60px;
-    margin-left: 30px;
+    margin-left: 35px;
     width: 330px;
     height: 140px;
     border-radius: 27px 20px 20px 27px;
@@ -628,6 +720,13 @@ h1 {
 /*--------------- ACTIVITES A MARSEILLE ----------------> */
 
 
+.mainContainer #activites {
+
+    padding: 0 2rem;
+
+}
+
+
 
 #activites {
 
@@ -643,7 +742,7 @@ h1 {
 
 
     padding-top: 10px;
-    margin-left: 50px;
+   
 
 }
 
@@ -653,7 +752,7 @@ h1 {
 
     display: flex;
     flex-wrap: wrap;
-
+    
 }
 
 
@@ -943,4 +1042,6 @@ footer {
     padding-top: 10px;
 
 }
+
+
 
