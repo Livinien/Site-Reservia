@@ -16,33 +16,33 @@ body {
 }
 
 
+.container {
+
+    margin: 0 auto;
+    
+}
+
 
 
 /*----------- HEADER -----------*/
 
 
 
-header {
+header .container {
 
     display: flex;
     align-items: center;
     flex-wrap: wrap;
-
-}
-
-
-header img {
-
-    margin-left: 30px;
-
+    
 }
 
 
 
 header a {
 
-    margin-right: 30px;
-
+    margin-right: 20px;
+    text-decoration: none;
+    color: #000;
 }
 
 
@@ -55,6 +55,8 @@ header ul {
     margin: 0;
     margin-left: auto;
     color: #0065FC;
+    
+    
 }
 
 
@@ -77,16 +79,18 @@ header ul li {
 header ul li a:hover {
 
     color: #0065FC;
+    
 
 }
 
 
 
 
-header > a {
+header .container > a {
 
     margin-left: 2rem;
     color: #0065FC;
+    
 }
 
 
@@ -109,7 +113,7 @@ header > a {
 #vacances {
 
     margin-top: 50px;
-    margin-left: 50px;
+    
 }
 
 
@@ -120,11 +124,6 @@ h1 {
     font-size: 22px;
 
 }
-
-
-
-
-
 
 
 
@@ -148,6 +147,20 @@ h1 {
 }
 
 
+
+.logo_recherche {
+
+    border-radius: 0px 15px 15px 0px;
+
+}
+
+
+
+.logo_recherche i {
+
+    display: none;
+
+}
 
 
 
@@ -214,19 +227,36 @@ h1 {
 
 
 
-.themes h2 {
+.themes {
 
     margin-top: 50px;
-    margin-left: 50px;
+    display: flex;
+    align-items: center;
 }
 
+
+.themes h2 {
+
+    margin-right: 30px;
+
+}
+
+
+
+.themes .point {
+
+    display: flex;
+    flex-grow: 1;
+    flex-wrap: wrap;
+   
+}
 
 
 
 
 .themes {
 
-    width: 90%;
+    
     height: auto;
     display: flex;
     flex-wrap: wrap;
@@ -239,17 +269,23 @@ h1 {
 
 .item {
 
-    width: 260px;
     height: 50px;
-    margin: 10px;
+    margin: 10px 20px 10px 0;
+    padding-right: 20px;
     border: 2px solid #f2f2f2;
     border-radius: 50px;
     display: flex;
     align-items: center;
-    margin-top: 40px;
-    margin-left: 40px;
+    
+    
 }
 
+
+.item:first-child {
+
+    margin-left: 0;
+
+}
 
 
 
@@ -291,12 +327,6 @@ h1 {
 
 
 
-
-
-
-
-
-
 .information {
 
     margin-top: 40px;
@@ -308,6 +338,7 @@ h1 {
 
 .info {
 
+    margin-top: 30px;
     display: flex;
 
 }
@@ -355,62 +386,73 @@ h1 {
 
 
 
-#locations {
+#hebergements {
 
-    width: 62%;
-    height: 10%;
-    background: #f2f2f2;
-    border-radius: 20px;
+    margin-top: 50px;
+    
+}
+
+
+
+#hebergements > .container {
+
+    display: flex;
     
 
 }
+
+
+
+#best {
+
+    flex-grow: 1;
+    
+}
+
+
+
+#locations {
+
+    width: 70%;
+    background: #f2f2f2;
+    border-radius: 20px;
+    padding: 15px;
+    display: flex;
+    flex-wrap: wrap;
+    
+}
+
 
 
 
 
 .titre {
-
-
-    margin-left: 50px;
-    padding-bottom: 10px;
-    margin-top: 50px;
+    width: 100%;
+    padding: 15px;
 }
 
-
-
-
-
-.container {
-
-    
-    display: flex;
-    flex-wrap: wrap;
-    align-items: stretch;
-    margin-left: 13px;
-    
-
-}
 
 
 
 
 .annonce {
 
-    width: calc(33% - 60px);
+    width: calc(33% - 30px);
     background: #fff;
     padding: 5px;
     border-radius: 25px;
-    margin: 30px;
-    box-shadow: 0px 0px 20px 0px;
+    margin: 15px;
+    box-shadow: 0px 0px 5px 0px;
     transform: scale(1);
     transition: .2s ease-in-out;
     cursor: pointer;
+    
 }
 
 
 .annonce:hover {
 
-    transform: scale(1.1);
+    transform: scale(1.02);
 
 }
 
@@ -426,6 +468,7 @@ h1 {
     box-sizing: border-box;
     border-radius: 25px 25px 0 0;
     height: 130px;
+    
 
 }
 
@@ -435,7 +478,7 @@ h1 {
 
 .description {
 
-    padding-left: 20px;
+    padding: 5px;
 
 }
 
@@ -504,27 +547,15 @@ h1 {
 
 
 
-#hebergements {
-
-    display: flex;
-    margin-top: 30px;
-    width: 90%;
-
-}
-
-
-
-
-
 .populaire {
 
     display: flex;
     flex-direction: column;
     width: 100%;
     height: 100%;
-    margin-left: 40px;
     background: #f2f2f2;
     border-radius: 20px;
+    padding: 30px;
 
 }
 
@@ -534,7 +565,8 @@ h1 {
 .block {
 
     display: flex;
-
+    width: 100%;
+    justify-content: space-between;
 
 }
 
@@ -545,8 +577,7 @@ h1 {
 .titre2 {
 
     display: flex;
-    margin-left: 50px;
-    margin-top: 50px;
+    
 }
 
 
@@ -555,9 +586,6 @@ h1 {
 
 .block i {
 
-    display: flex;
-    margin-top: 53px;
-    padding-left: 60px;
     font-size: 25px;
 
 }
@@ -571,9 +599,8 @@ h1 {
 
     display: flex;
     background: #fff;
-    margin-top: 60px;
-    margin-left: 20px;
-    width: 330px;
+    margin-top: 30px;
+    width: 100%;
     height: 140px;
     border-radius: 27px 20px 20px 27px;
     box-shadow: 1px 1px 20px 1px;
@@ -586,7 +613,7 @@ h1 {
 
 .most-popular:hover {
 
-    transform: scale(1.1);
+    transform: scale(1.02);
 
 }
 
@@ -666,87 +693,83 @@ h1 {
 
 #activites {
 
-    margin-bottom: 100px;
-    margin-top: 60px;
+    margin-top: 50px;
+    padding-bottom: 80px;
+}
+
+
+
+.container  {
+
+    width: 90%;
+    
 }
 
 
 
 
+.hobbies {
 
-.marseille {
-
-
-    padding-top: 10px;
-    margin-left: 50px;
-
+    
+    display: flex;
+    align-items: stretch;
+    margin: 0 -30px;
+    padding-top: 20px;
+    
 }
+
 
 
 
 .pictures {
 
-    display: flex;
-    flex-wrap: wrap;
+    width: 100%;
+    height: 100%;
+    
+    
+}
+
+
+.pictures img {
+
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    
+   
+
 
 }
+
+
+
+/* --------------------------- GRANDES IMAGES ----------------------- */
 
 
 
 
 .grandes {
 
-    display: flex;
-    flex-direction: row;
-    margin-top: 40px;
-    margin-left: 50px;
-    background: #fff;
-    box-shadow: 1px 1px 30px 1px;
-    border-radius: 20px 20px 20px 20px;
-    transform: scale(1);
-    transition: .2s ease-in-out;
+    box-shadow: 0px 0px 5px 0px;
+    width: calc(30% - 20px);
+    height: 38%;
 }
-
-
-.grandes:hover {
-
-    transform: scale(1.1);
-
-}
-
 
 
 
 .grandes img {
 
 
-    width: 320px;
-    height: 390px;
-    object-fit: cover;
-    border-radius: 20px 20px 0px 0px;
+    height: 790px;
+    border-radius: 15px 15px 0px 0px;
 
-}
+} 
 
 
 
+.grandes h3 {
 
-.soustitre {
-
-    margin-left: 20px;
-    margin-top: 8px;
-    padding-bottom: 10px;
-    border-radius: 5px;
-
-}
-
-
-
-
-a {
-
-
-    text-decoration: none;
-    color: #000;
+    padding: 15px;
 
 }
 
@@ -755,15 +778,41 @@ a {
 
 
 
+/* --------------------------- PETITES IMAGES ----------------------- */
+
+
+
+.petites {
+
+    border-radius: 15px 15px 0 0;
+    width: calc(20% - 30px);
+    
+}
 
 
 
 
-.petite {
+.petites img {
+
+    border-radius: 15px 15px 0 0;
+    
+}
 
 
-    margin-top: 40px;
-    margin-left: 50px;
+
+
+.petites .pictures {
+
+    height: calc(49% - 15px);
+    margin-bottom: 28px;
+    
+
+}
+
+
+.petites .pictures:last-child {
+    
+    margin-bottom: 0px;
 
 }
 
@@ -771,76 +820,77 @@ a {
 
 
 
+/* --------------------------- ANIMATIONS ----------------------- */
 
 
-.fort {
 
-    background: #fff;
-    box-shadow: 1px 1px 30px 1px;
-    border-radius: 20px 20px 20px 20px;
+
+.grandes, .petites {
+
+    margin: 15px;
+    border-radius: 15px 15px 15px 15px;
     transform: scale(1);
     transition: .2s ease-in-out;
+    cursor: pointer;
+}
 
+
+.grandes:hover {
+
+    transform: scale(1.02);
 
 }
 
 
+
+
+ .fort {
+
+    border-radius: 15px 15px 15px 15px;
+    box-shadow: 0px 0px 5px 0px;
+    padding-bottom: 50px;
+    transform: scale(1);
+    transition: .2s ease-in-out;
+    cursor: pointer;
+    
+
+}
+
+
+.fort h3 {
+
+    margin-left: 10px;
+    padding: 10px;
+
+}
 
 
 .fort:hover {
 
-    transform: scale(1.1);
+    transform: scale(1.02);
 
 }
 
 
 
+.frioul {
 
-.fort img {
-
-    width: 355px;
-    height: 180px;
-    object-fit: cover;
-    border-radius: 20px 20px 0px 0px;
-
-}
-
-
-
-
-
-
-
-
-
-
-.iles {
-
-
-    background: #fff;
-    box-shadow: 1px 1px 30px 1px;
-    border-radius: 20px 20px 20px 20px;
-    margin-top: 40px;
+    
+    border-radius: 15px 15px 15px 15px;
+    box-shadow: 0px 0px 5px 0px;
+    padding-bottom: 55px;
     transform: scale(1);
     transition: .2s ease-in-out;
+    cursor: pointer;
 
 }
 
 
-.iles:hover {
+.frioul h3 {
 
-    transform: scale(1.1);
-
-}
-
-
-
-.iles img {
-
-    width: 355px;
-    height: 117px;
-    object-fit: cover;
-    border-radius: 20px 20px 0px 0px;
+   padding-top: 14px;
+   margin-left: 15px;
+  
 
 }
 
@@ -848,74 +898,78 @@ a {
 
 
 
+.frioul:hover {
+
+    transform: scale(1.02);
+
+}
 
 
 
+.dame {
 
-.notre_dame {
-
-    background: #fff;
-    box-shadow: 1px 1px 30px 1px;
-    border-radius: 20px 20px 20px 20px;
+    border-radius: 15px 15px 15px 15px;
+    box-shadow: 0px 0px 5px 0px;
+    padding-bottom: 50px;
     transform: scale(1);
     transition: .2s ease-in-out;
-}
-
-
-
-.notre_dame:hover {
-
-    transform: scale(1.1);
+    cursor: pointer;
+    
 
 }
 
 
 
-.notre_dame img {
+.dame h3 {
 
-    width: 355px;
-    height: 150px;
-    object-fit: cover;
-    border-radius: 20px 20px 0px 0px;
+    margin-left: 10px;
+    padding: 10px;
 
 }
 
 
+.dame:hover {
 
+    transform: scale(1.02);
 
-
-
+}
 
 
 .longchamps {
 
-    background: #fff;
-    box-shadow: 1px 1px 30px 1px;
-    border-radius: 20px 20px 20px 20px;
-    margin-top: 40px;
+    border-radius: 15px 15px 15px 15px;
+    box-shadow: 0px 0px 5px 0px;
+    padding-bottom: 55px;
     transform: scale(1);
     transition: .2s ease-in-out;
+    cursor: pointer;
 
 }
 
+
+.longchamps h3 {
+
+    padding-top: 14px;
+    margin-left: 15px;
+   
+ 
+ }
+ 
 
 
 .longchamps:hover {
 
-    transform: scale(1.1);
+    transform: scale(1.02);
 
 }
 
 
 
-.longchamps img {
 
-    width: 355px;
-    height: 147px;
-    object-fit: cover;
-    border-radius: 20px 20px 0px 0px;
 
-}
+
+
+
 
 
 
@@ -932,10 +986,14 @@ a {
 /* --------------  FOOTER  -------------------------- */
 
 
+
+
 footer {
 
     background: #f2f2f2;
     width: 100%;
+    
+   
 
 }
 
@@ -944,9 +1002,10 @@ footer {
 .informations {
 
     display: flex;
-    margin-right: 200px;
+    width: 72%;
     padding-top: 20px;
-    justify-content: space-evenly;
+    padding-left: 150px;
+    justify-content: space-between;
 
 }
 
@@ -958,8 +1017,12 @@ footer {
     display: flex;
     flex-direction: column;
     padding: 30px;
+    
+    
 
 }
+
+
 
 
 
@@ -969,6 +1032,7 @@ footer {
 
     list-style-type: none;
     padding-top: 10px;
+    
 
 }
 
@@ -976,8 +1040,10 @@ footer {
 .fin li {
 
     padding-top: 10px;
+    
 
 }
+
 
 
 
