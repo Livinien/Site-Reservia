@@ -1,137 +1,9 @@
 
+
+
 /* ----------------------------------------------------------------- LE CORPS DU SITE WEB ------------------- */
 
 
-
-
-@media (min-width: 1700px) and (max-width: 1930px) {
-
-    
-
-
-    header img {
-
-        margin-left: 185px;
-
-    }
-
-
-
-
-
-    #vacances h1 {
-
-        margin-left: 140px;
-
-    }
-
-
-    #vacances p {
-
-        margin-left: 140px;
-
-    }
-
-
-
-    .themes {
-
-        margin-left: 140px;
-
-    }
-
-
-
-
-    .post {
-
-        margin-left: 140px;
-
-    }
-
-
-
-    .info {
-
-        margin-left: 140px;
-    
-
-    }
-
-
-
-    #hebergements {
-
-        margin-left: 120px;
-
-    }
-
-
-    #activites {
-
-        margin-left: 140px;
-
-    }
-    
-
-
-
-    #locations {
-
-        width: 61%;
-        height: 10%;
-        margin-left: 70px;
-    
-    }
-    
-    
-
-
-    .populaire {
-
-        width: 430px;
-        height: 100%;
-        margin-left: 40px;
-        
-    }
-
-
-    
-    .most-popular {
-
-        margin-left: 50px;
-        width: 330px;    
-
-    }
-
-
-
-    .fin {
-
-        padding-right: 70px;
-        
-    }
-
-
-    .fin:nth-child(2) {
-   
-        padding-right: 170px;
-
-
-    }
-
-
-    .fin:nth-child(3) {
-   
-        padding-right: 220px;
-
-
-    }
-
-
-
-
-}
 
 
 
@@ -142,7 +14,7 @@
     
     header ul li {
 
-        margin-left: 80px;
+        margin-left: 90px;
         width: 100px;
         
     }
@@ -174,7 +46,7 @@
     header a {
 
         width: 17%;
-       
+        
     }
 
 
@@ -198,7 +70,7 @@
     header a {
 
         width: 12%;
-       
+        
     }
 
 
@@ -653,7 +525,7 @@
 
         display: flex;
         flex-wrap: wrap;
-        margin-left: 90px;
+        margin-left: 110px;
         width: calc(38% - 60px);
 
     }
@@ -664,6 +536,15 @@
         margin-top: 5px;
     
     }
+
+
+    .affiche a {
+
+        position: relative;
+        left: 10px;
+
+    }
+
     
 
 
@@ -673,12 +554,74 @@
 
 
 
-@media (max-width: 1180px) {
+@media (max-width: 1300px) {
+
 
 
     .annonce {
 
-        width: calc(37% - 60px);
+        
+        position: relative;
+        right: 50px;
+        width: calc(33% - 20px);
+
+    }
+
+
+
+}
+
+
+@media (max-width: 1250px) {
+
+
+
+    .annonce {
+
+        
+        position: relative;
+        right: 45px;
+        width: calc(32% - 20px);
+
+    }
+
+
+
+}
+
+
+
+
+@media (max-width: 1200px) {
+
+
+
+    .annonce {
+
+        
+        position: relative;
+        right: 55px;
+        width: calc(31% - 20px);
+
+    }
+
+
+
+}
+
+
+
+
+
+
+@media (max-width: 1180px) {
+
+
+
+    .annonce {
+
+        width: calc(40% - 60px);
+        
 
     }
 
@@ -702,32 +645,55 @@
 
     .titre {
 
-        margin-left: 0px;
+        margin-left: 50px;
 
     }
 
-
-
-    .container {
-
-       
-
-    }
-
-
-
-    .annonce {
-
-        
-        
-        
-    }
 
 
   
 }
 
 
+
+
+@media (max-width: 900px) {
+
+    .annonce {
+
+        margin-left: 110px;
+
+    }
+    
+        
+
+}
+
+
+
+@media (max-width: 815px) {
+
+    .annonce {
+
+        width: 220px;
+
+    }
+
+}
+
+
+
+@media (max-width: 791px) {
+
+    .annonce {
+
+        display: flex;
+        flex-direction: column;
+        width: calc(100% - 10px);
+        
+    }
+
+}
 
 
 
@@ -745,7 +711,7 @@
     .annonce {
 
         width: 100%;
-        margin-left: 27px;
+        margin-left: 77px;
         
 
     }
@@ -754,7 +720,7 @@
     .affiche a {
 
         position: relative;
-        right: 20px;
+        right: 0px;
 
     }
 
@@ -890,11 +856,12 @@
 
 
 
-    #hebergements {
+    .mainContainer #hebergements {
 
         display: flex;
         flex-direction: column-reverse;   
         width: 100%;
+        margin-left: auto;
         
     }
 
@@ -924,6 +891,7 @@
         width: 530px;
         height: 150px;
         margin-top: 50px;
+        margin-right: 10px;
 
        
     }
@@ -936,6 +904,9 @@
         width: 220px;
     
     }
+
+
+   
 
 
     .most-popular:nth-child(3) i {
@@ -959,8 +930,6 @@
 
 
 }
-
-
 
 
 
@@ -1150,7 +1119,7 @@
 
     #activites {
 
-        margin-left: -18px;
+        margin-left: 0px;
 
     }
 
@@ -1215,17 +1184,22 @@
 
 @media (max-width: 1667px) {
 
+    .pictures {
+
+        margin-left: 100px;
+
+    }
 
     .notre_dame {
 
-        margin-left: 360px;
+        margin-left: 370px;
 
     }
 
 
     .longchamps {
 
-        margin-left: 360px;
+        margin-left: 370px;
 
 
     }
@@ -1238,7 +1212,33 @@
 
 
 
-@media (max-width: 1162px) {
+@media (max-width: 1245px) {
+
+    .notre_dame {
+
+        margin-left: 0px;
+
+    }
+
+
+    .longchamps {
+
+        margin-left: 0px;
+
+
+    }
+
+
+
+
+
+
+}
+
+
+
+
+@media (max-width: 1146px) {
 
 
     .notre_dame {
@@ -1260,6 +1260,33 @@
 
 }
 
+
+
+@media (max-width: 1000px) {
+
+    .pictures {
+
+       position: relative;
+       right: 100px;
+
+    }
+
+
+}
+
+
+
+
+@media (max-width: 875px) {
+
+    .pictures {
+
+        width: calc(99% - 10px);
+        
+
+    }
+
+}
 
 
 
@@ -1385,13 +1412,7 @@
 }
 
 
-
-
-
-
-
-
-    
+   
 
 
     .iles img {
@@ -1521,6 +1542,63 @@
          /* --------------- FOOTER ------------------------ */
 
 
+@media (max-width: 1700px) {
+
+    .informations {
+
+        display: flex;
+        width: 80%;
+        padding-top: 20px;
+        justify-content: space-between;
+    
+    }
+    
+    
+
+}
+
+
+
+
+
+@media (max-width: 1150px) {
+
+    
+    .informations {
+
+        
+        width: 80%;
+        padding-top: 20px;
+        position: relative;
+        right: 50px;
+        
+    }
+    
+    
+    
+
+}
+
+
+
+@media (max-width: 1000px) {
+
+    
+    .informations {
+
+        
+        width: 80%;
+        padding-top: 20px;
+        position: relative;
+        right: 130px;
+        
+    }
+    
+    
+    
+
+}
+
 
         
 
@@ -1541,7 +1619,7 @@
     .fin {
 
         padding-bottom: 20px;
-        margin-left: 10px ;
+        margin-left: 10px;
     }
 
 
