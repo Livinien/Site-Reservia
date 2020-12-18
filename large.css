@@ -46,48 +46,6 @@
 /* ------------------------- ACTIVITES A MARSEILLE --------------------- */
 
 
-
-.grandes {
-
-    transform: scale(1);
-    transition: .2s ease-in-out;
-    cursor: pointer;
-}
-
-
-
-
-.grandes:hover {
-
-    transform: scale(1.02);
-
-}
-
-
-
-
-
-.petites {
-
-    
-    transform: scale(1);
-    transition: .2s ease-in-out;
-    cursor: pointer;
-   
-}
-
-
-.petites:hover {
-
-    transform: scale(1.02);
-
-}
-
-
-
-
-
-
 .hobbies {
 
     flex-wrap: wrap;
@@ -114,12 +72,77 @@
 
 
 
+.grandes h3 {
+
+    margin-left: 10px;
+    padding: 10px;
+
+}
+
+
+.petites .pictures {
+
+    height: calc(49% - 15px);
+    margin-bottom: 28px;
+    
+
+}
+
+
 
 .petites {
 
-    height: 350px;
+    height: 353px;
     width: calc(48% - 30px);
-    padding: 10px;
+    padding-bottom: 10px;
+}
+
+
+
+
+.frioul {
+
+    margin-top: 44px;
+
+}
+
+
+.frioul img {
+
+    height: 103px;
+
+}
+
+
+
+.dame {
+
+    margin-top: 0px;
+
+}
+
+
+
+.dame h3 {
+
+    font-size: 18px;
+
+}
+
+
+
+.longchamps img {
+
+    height: 103px;
+
+}
+
+
+
+.longchamps {
+
+    margin-top: 44px;
+
 }
 
 
