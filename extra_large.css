@@ -21,3 +21,29 @@
 
 
 
+
+.petites .pictures:first-child {
+
+    margin-bottom: 15px;
+
+}
+
+
+
+.petites .pictures:last-child {
+
+    margin-top: 15px;
+
+}
+
+
+
+.petites .pictures {
+
+    height: calc(50% - 7.5px);
+
+    
+}
+
+
+
