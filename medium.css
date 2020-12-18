@@ -6,10 +6,12 @@
 
 
 
+
 .annonce {
 
     width: 100%;
-
+    margin-left: 0;
+    margin-right: 0;
 }
 
 
@@ -19,8 +21,34 @@
     width: 100%;
     margin-top: 50px;
     background: #fff;
+    padding: 0px;
+}
+
+
+
+
+.titre {
+    
+    padding-left: 0px;
+}
+
+
+
+.affiche {
+
+    margin-left: 0;
 
 }
+
+
+
+.affiche a {
+
+    margin-left: 0;
+
+}
+
+
 
 
 
@@ -30,31 +58,90 @@
     flex-wrap: wrap;
     flex-direction: column-reverse;
     
-
-
 }
 
 
 
 .hobbies {
 
+    
     flex-wrap: wrap;
+    padding-left: 15px;
+    
+}
+
+
+
+.pictures {
+
+    width: 100%;
 
 }
 
 
+
+.petites .pictures {
+
+    height: calc(50.6% - 18px);
+    
+
+}
+
+
+
 .grandes {
 
-    width: calc(60% - 30px);
+    width: 94%;
+
+}
+
+
+.grandes img {
+
+    
+    height: 226px;
 
 }
 
 
 .petites {
 
-    width: calc(40% - 30px);
+    height: 600px;
+    width: 94%;
 
 }
 
+
+.petites img {
+
+    height: 100%;
+
+}
+
+
+
+
+
+.frioul img {
+    
+    height: 226px;
+    
+}
+
+
+
+.dame h3 {
+
+    font-size: 18px;
+
+}
+
+
+.longchamps img {
+
+    
+    height: 226px;
+
+}
 
 
