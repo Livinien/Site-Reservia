@@ -1052,7 +1052,7 @@ h1 {
 
 
 
-footer {
+/* footer {
 
     background: #f2f2f2;
     width: 100%;
@@ -1112,9 +1112,58 @@ a {
     text-decoration: none;
     color: #000;
 
+} */
+
+
+
+
+#informations {
+
+    background: #f2f2f2;
+    padding: 40px;
+    width: 100%;
+}
+
+
+
+#informations .container  {
+
+    display: flex;
+    
+    
 }
 
 
 
 
+.fin {
 
+    width: 80%;
+ 
+ }
+ 
+
+
+
+.fin h4 {
+
+    padding-bottom: 7px;
+
+}
+
+
+
+.fin li {
+
+    padding-top: 10px;
+    list-style-type: none;
+
+}
+
+
+
+a {
+
+    text-decoration: none;
+    color: #000;
+}
