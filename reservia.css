@@ -1034,85 +1034,7 @@ h1 {
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
 /* --------------  FOOTER  -------------------------- */
-
-
-
-
-/* footer {
-
-    background: #f2f2f2;
-    width: 100%;
-    
-   
-
-}
-
-
-
-.informations {
-
-    display: flex;
-    width: 72%;
-    padding-top: 20px;
-    padding-left: 150px;
-    justify-content: space-between;
-    
-}
-
-
-
-
-.fin {
-
-    display: flex;
-    flex-direction: column;
-    padding: 30px;
-    
-    
-
-}
-
-
-
-
-.fin ul {
-
-
-    list-style-type: none;
-    padding-top: 10px;
-    
-
-}
-
-
-.fin li {
-
-    padding-top: 10px;
-    
-
-}
-
-
-a {
-
-    text-decoration: none;
-    color: #000;
-
-} */
 
 
 
@@ -1120,8 +1042,9 @@ a {
 #informations {
 
     background: #f2f2f2;
-    padding: 40px;
+    padding: 40px 0;
     width: 100%;
+    
 }
 
 
@@ -1138,8 +1061,8 @@ a {
 
 .fin {
 
-    width: 80%;
- 
+    width: 100%;
+    
  }
  
 
