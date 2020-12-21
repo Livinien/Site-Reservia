@@ -5,6 +5,7 @@
 }
 
 
+/* ------------- HEBERGEMENTS -------------------- */
 
 
 .annonce {
@@ -23,6 +24,8 @@
     background: #fff;
     padding: 0px;
 }
+
+
 
 
 
@@ -51,6 +54,23 @@
 
 
 
+/* ------------------------------------- LES PLUS POPULAIRES ----------------------- */
+
+ {
+
+    background: greenyellow;
+    width: 100%;
+    
+
+}
+
+
+
+
+
+/* ------------- ACTIVITES -------------------- */
+
+
 
 #hebergements > .container {
 
@@ -64,9 +84,7 @@
 
 .hobbies {
 
-    
     flex-wrap: wrap;
-    
     
 }
 
@@ -148,6 +166,10 @@
 
 
 
+/* ------------------- FOOTER -------------------- */
+
+
+
 
 #informations .container  {
 
@@ -155,6 +177,9 @@
     flex-direction: column;
     
 }
+
+
+
 
 
 
