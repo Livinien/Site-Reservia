@@ -93,7 +93,7 @@
 .petites {
 
     height: 353px;
-    width: calc(48% - 30px);
+    width: calc(50% - 30px);
     padding-bottom: 10px;
 }
 
@@ -144,6 +144,52 @@
     margin-top: 44px;
 
 }
+
+
+
+
+
+
+
+
+
+
+#informations {
+
+    background: #f2f2f2;
+    padding: 40px 0;
+    width: 100%;
+   
+}
+
+
+
+#informations .container  {
+
+    display: flex;
+    
+    
+}
+
+
+
+
+.fin {
+
+    width: 100%;
+    
+ }
+ 
+
+
+
+
+
+
+
+
+
+
 
 
 
