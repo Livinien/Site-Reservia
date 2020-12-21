@@ -5,6 +5,13 @@
 }
 
 
+
+
+/* ------------------------------ HEADER -------------------------- */
+
+
+
+
 header .container > img {
 
     order: 1;
@@ -87,6 +94,10 @@ header .container > ul > li {
 
 
 
+/* ---------------------------- RECHERCHE ------------------------- */
+
+
+
 .logo_recherche i {
 
     display: inline-block;
@@ -108,27 +119,11 @@ header .container > ul > li {
 }
 
 
-.annonce {
-
-    width: 100%;
-
-}
 
 
 
-#best {
+/* --------------------- HEBERGEMENTS ---------------------------- */
 
-    width: 100%;
-
-}
-
-
-#locations  {
-
-    width: 100%;
-    margin-top: 50px;
-    background: #fff;
-}
 
 
 
@@ -144,29 +139,220 @@ header .container > ul > li {
 
 
 
-.hobbies {
 
-    flex-direction: column;
+
+.annonce {
+
+    width: 100%;
+    margin-left: 0;
+    margin-right: 0;
+}
+
+
+
+
+
+
+#locations  {
+
+    width: 100%;
+    margin-top: 50px;
+    background: #fff;
+    padding: 0px;
+}
+
+
+
+
+.titre {
+    
+    padding-left: 0px;
+}
+
+
+
+.affiche {
+
+    margin-left: 0;
 
 }
+
+
+
+.affiche a {
+
+    margin-left: 0;
+
+}
+
+
+
+
+
+
+
+/* ------------------ LES PLUS POPULAIRES ------------------------- */
+
+
+
+
+.resum {
+
+
+    font-size: 15px;
+    padding-bottom: 50px;
+    margin: 10px;
+
+}
+
+
+
+
+@media (max-width: 386px) {
+
+    .resum h3 {
+
+        font-size: 14px;
+    
+    
+    }
+    
+    
+    
+    .resum p {
+    
+        font-size: 13px;
+    
+    
+    }
+    
+    
+    
+    
+    .resum i {
+    
+        font-size: 12px;
+            
+    }
+    
+
+
+}
+
+
+
+
+
+@media (max-width: 386px) {
+
+
+    .titre2 {
+
+        font-size: 22px;
+
+    }
+
+
+    .resum h3 {
+
+        font-size: 14px;
+    
+    
+    }
+    
+    
+    
+    .resum p {
+    
+        font-size: 14px;
+    
+    
+    }
+    
+    
+    
+    
+    .resum i {
+    
+        font-size: 14px;
+        
+    }
+    
+
+
+}
+
+
+
+
+@media (max-width: 330px) {
+
+    .titre2 {
+
+        font-size: 20px;
+
+    }
+
+
+
+
+    .resum h3 {
+
+        font-size: 12px;
+    
+    
+    }
+    
+    
+    .resum p {
+    
+        font-size: 12px;
+    
+    
+    }
+    
+    
+    
+    .resum i {
+    
+        font-size: 13px;
+        
+    }
+
+
+        
+    
+
+
+}
+
+
+
+
+
+/* ---------------------------- ACTIVITES ----------------------- */
+
+
+
+
+
+.hobbies {
+
+    flex-wrap: wrap;
+    margin: 0;
+    
+}
+
 
 
 .grandes, .petites {
 
     width: 100%;
-    margin: 30px 0;
-
+    margin: 15px 0;
 }
 
 
 
-
-
-.grandes {
-
-    width: 100%;
-
-}
 
 
 .grandes img {
@@ -185,20 +371,6 @@ header .container > ul > li {
 }
 
 
-.petites img {
-
-    height: 100%;
-
-}
-
-
-.frioul img {
-
-    
-    height: 226px;
-
-}
-
 
 
 .dame h3 {
@@ -208,15 +380,41 @@ header .container > ul > li {
 }
 
 
-.longchamps img {
 
-    
-    height: 226px;
+
+
+
+
+
+/* ----------------------------- FOOTER ------------------------ */
+
+
+
+
+
+#informations .container {
+
+    display: flex;
+    flex-direction: column;
 
 }
 
 
 
+.fin {
+
+    padding-bottom: 40px;
+
+}
+
+
+
+
+.fin h4 {
+
+    padding-bottom: 10px;
+
+}
 
 
 
