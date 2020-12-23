@@ -56,13 +56,24 @@
 
 /* ------------------------------------- LES PLUS POPULAIRES ----------------------- */
 
- {
 
-    background: greenyellow;
-    width: 100%;
+#hebergements > .container {
+
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column-reverse;
     
+}
+
+
+
+#best {
+
+    width: 100%;
 
 }
+    
+
 
 
 
@@ -72,13 +83,6 @@
 
 
 
-#hebergements > .container {
-
-    display: flex;
-    flex-wrap: wrap;
-    flex-direction: column-reverse;
-    
-}
 
 
 
@@ -177,9 +181,6 @@
     flex-direction: column;
     
 }
-
-
-
 
 
 
