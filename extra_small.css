@@ -193,7 +193,29 @@ header .container > ul > li {
 
 /* ------------------ LES PLUS POPULAIRES ------------------------- */
 
+#hebergements .container {
 
+    width: 100%;
+
+}
+
+
+
+#locations {
+
+    width: 95%;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+
+
+
+.populaire {
+
+    border-radius: 0;
+    padding: 2.5%;
+}
 
 
 .resum {
