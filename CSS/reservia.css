@@ -999,7 +999,7 @@ h1 {
 }
 
 
-.longchamps {
+.longchamp {
 
     border-radius: 15px 15px 15px 15px;
     box-shadow: 0px 0px 5px 0px;
@@ -1011,7 +1011,7 @@ h1 {
 }
 
 
-.longchamps h3 {
+.longchamp h3 {
 
     margin-left: 10px;
     padding: 10px;
@@ -1021,7 +1021,7 @@ h1 {
  
 
 
-.longchamps:hover {
+.longchamp:hover {
 
     transform: scale(1.02);
 
