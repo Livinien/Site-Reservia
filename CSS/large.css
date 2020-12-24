@@ -1,0 +1,195 @@
+.container {
+
+    width: 960px;
+
+}
+
+
+
+.annonce {
+
+    width: calc(50% - 30px);
+
+
+}
+
+
+
+#best {
+
+    margin-left: 30px;
+
+}
+
+
+
+.most-popular {
+
+    margin-top: 110px;
+
+}
+
+
+
+.most-popular:nth-child(2) {
+
+    margin-top: 40px;
+
+}
+
+
+
+
+
+
+
+/* ------------------------- ACTIVITES A MARSEILLE --------------------- */
+
+
+.hobbies {
+
+    flex-wrap: wrap;
+    
+}
+
+
+.grandes {
+
+    height: 350px;
+    width: calc(50% - 30px);
+    
+}
+
+
+
+.grandes img {
+
+    height: 300px;
+    border-radius: 15px 15px 0px 0px;
+    
+
+}
+
+
+
+.grandes h3 {
+
+    margin-left: 10px;
+    padding: 10px;
+
+}
+
+
+.petites .pictures {
+
+    height: calc(49% - 15px);
+    margin-bottom: 28px;
+    
+
+}
+
+
+
+.petites {
+
+    height: 353px;
+    width: calc(50% - 30px);
+    padding-bottom: 10px;
+}
+
+
+
+
+.frioul {
+
+    margin-top: 44px;
+
+}
+
+
+.frioul img {
+
+    height: 103px;
+
+}
+
+
+
+.dame {
+
+    margin-top: 0px;
+
+}
+
+
+
+.dame h3 {
+
+    font-size: 18px;
+
+}
+
+
+
+.longchamps img {
+
+    height: 103px;
+
+}
+
+
+
+.longchamps {
+
+    margin-top: 44px;
+
+}
+
+
+
+
+
+/* --------------------------------- FOOTER ------------------------------ */
+
+
+
+
+#informations {
+
+    background: #f2f2f2;
+    padding: 40px 0;
+    width: 100%;
+   
+}
+
+
+
+#informations .container  {
+
+    display: flex;
+    
+    
+}
+
+
+
+
+.fin {
+
+    width: 100%;
+    
+ }
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+

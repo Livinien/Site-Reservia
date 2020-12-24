@@ -1,0 +1,187 @@
+.container {
+
+    width: 540px;
+
+}
+
+
+
+.annonce {
+
+    width: 100%;
+
+}
+
+
+
+#best {
+
+    width: 100%;
+    
+
+}
+
+
+.annonce {
+
+    width: 100%;
+    margin-left: 0;
+    margin-right: 0;
+}
+
+
+
+#locations  {
+
+    width: 100%;
+    margin-top: 50px;
+    background: #fff;
+    padding: 0px;
+}
+
+
+
+
+.titre {
+    
+    padding-left: 0px;
+}
+
+
+
+.affiche {
+
+    margin-left: 0;
+
+}
+
+
+
+.affiche a {
+
+    margin-left: 0;
+
+}
+
+
+
+
+#hebergements > .container {
+
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column-reverse;
+    
+}
+
+
+
+.hobbies {
+
+    
+    flex-wrap: wrap;
+    
+    
+}
+
+
+
+.pictures {
+
+    width: 100%;
+
+}
+
+
+
+
+
+
+.grandes {
+
+    width: 95%;
+
+}
+
+
+.grandes img {
+
+    
+    height: 226px;
+
+}
+
+
+.petites {
+
+    height: 600px;
+    width: 100%;
+
+}
+
+
+.petites img {
+
+    height: 100%;
+
+}
+
+
+.frioul img {
+    
+    height: 226px;
+
+}
+
+
+
+.dame h3 {
+
+    font-size: 18px;
+
+}
+
+
+.longchamps img {
+
+    
+    height: 226px;
+
+}
+
+
+
+
+
+
+
+
+/* --------------- FOOTER -------------------- */
+
+
+
+
+#informations .container {
+
+    display: flex;
+    flex-direction: column;
+
+}
+
+
+
+.fin {
+
+    padding-bottom: 40px;
+
+}
+
+
+
+
+.fin h4 {
+
+    padding-bottom: 10px;
+
+}
+
